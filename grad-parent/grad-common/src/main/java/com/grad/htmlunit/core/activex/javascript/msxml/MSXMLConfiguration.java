@@ -17,7 +17,7 @@ package com.grad.htmlunit.core.activex.javascript.msxml;
 import java.util.Map;
 import java.util.WeakHashMap;
 
-import com.grad.htmlunit.BrowserVersion;
+import com.grad.htmlunit.core.BrowserVersion;
 import com.grad.htmlunit.core.javascript.configuration.AbstractJavaScriptConfiguration;
 
 /**

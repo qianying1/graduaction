@@ -21,7 +21,7 @@ import java.util.Map.Entry;
 
 import org.apache.commons.lang3.StringUtils;
 
-import com.grad.htmlunit.BrowserVersion;
+import com.grad.htmlunit.core.BrowserVersion;
 import com.grad.htmlunit.core.javascript.ScriptableWithFallbackGetter;
 import com.grad.htmlunit.core.javascript.SimpleScriptable;
 import com.grad.htmlunit.core.javascript.configuration.ClassConfiguration;

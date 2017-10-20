@@ -1,17 +1,5 @@
 Manifest-Version: 1.0
-Build-Time: 2017-10-20 02:43
-Implementation-Title: graduaction
-Implementation-Version: 0.0.1-SNAPSHOT
-Built-By: xmm
-Specification-Vendor: Gargoyle Software Inc.
-Created-By: Maven Integration for Eclipse
-Implementation-URL: http://htmlunit.sourceforge.net
-Url: http://htmlunit.sourceforge.net
-Implementation-Vendor: Gargoyle Software Inc.
-SVN-Revision: 
-Build-Number: 
-Implementation-Vendor-Id: com.grad
 Build-Jdk: 1.7.0_51
-Specification-Title: graduaction
-Specification-Version: 0.0.1-SNAPSHOT
+Built-By: xmm
+Created-By: Maven Integration for Eclipse
 

@@ -19,9 +19,9 @@ import java.util.Locale;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 
-import com.grad.htmlunit.BrowserVersion;
-import com.grad.htmlunit.ScriptException;
-import com.grad.htmlunit.WebWindow;
+import com.grad.htmlunit.core.BrowserVersion;
+import com.grad.htmlunit.core.ScriptException;
+import com.grad.htmlunit.core.WebWindow;
 
 import net.sourceforge.htmlunit.corejs.javascript.Scriptable;
 
