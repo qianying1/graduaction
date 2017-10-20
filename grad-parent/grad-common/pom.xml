@@ -8,7 +8,7 @@
 	</parent>
 	<artifactId>grad-common</artifactId>
 	<name>graduaction</name>
-	<!-- <organization>
+	<organization>
 		<name>Gargoyle Software Inc.</name>
 		<url>http://www.GargoyleSoftware.com/</url>
 	</organization>
@@ -26,8 +26,8 @@
 				<artifactId>maven-compiler-plugin</artifactId>
 				<version>3.3</version>
 				<configuration>
-					Update the links reference in PDM and clover plugins when this 
-						changes
+					<!-- Update the links reference in PDM and clover plugins when this
+					changes -->
 					<source>1.7</source>
 					<target>1.7</target>
 					<testExcludes>
@@ -69,8 +69,8 @@
 							<Url>${project.url}</Url>
 							<Build-Time>${maven.build.timestamp}</Build-Time>
 
-							Following entries should be passed by CruiseControl on the CI 
-								server
+							Following entries should be passed by CruiseControl on the CI
+							server
 							<SVN-Revision>${svnrevision}</SVN-Revision>
 							<Build-Number>${label}</Build-Number>
 						</manifestEntries>
@@ -780,7 +780,7 @@
 			<artifactId>htmlunit-core-js</artifactId>
 			<version>2.17</version>
 		</dependency>
-		This is an indirect dependency, used by Xalan and NekoHtml
+		<!-- This is an indirect dependency, used by Xalan and NekoHtml -->
 		<dependency>
 			<groupId>xerces</groupId>
 			<artifactId>xercesImpl</artifactId>
@@ -817,7 +817,7 @@
 			<artifactId>websocket-client</artifactId>
 			<version>9.2.12.v20150709</version>
 		</dependency>
-		Test dependencies.
+		<!-- Test dependencies. -->
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
@@ -848,8 +848,8 @@
 			<version>1.3.1</version>
 			<scope>test</scope>
 		</dependency>
-		The presence of slf4j on the classpath during the unit tests triggers 
-			correct logging in Jetty.
+	<!-- 	The presence of slf4j on the classpath during the unit tests triggers
+		correct logging in Jetty. -->
 		<dependency>
 			<groupId>org.slf4j</groupId>
 			<artifactId>slf4j-api</artifactId>
@@ -868,7 +868,7 @@
 			<version>1.0.19</version>
 			<scope>test</scope>
 		</dependency>
-		Jetty
+		<!-- Jetty -->
 		<dependency>
 			<groupId>org.eclipse.jetty</groupId>
 			<artifactId>jetty-webapp</artifactId>
@@ -881,7 +881,7 @@
 			<version>9.2.12.v20150709</version>
 			<scope>test</scope>
 		</dependency>
-		WebDriver
+	<!-- WebDriver -->
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
 			<artifactId>selenium-htmlunit-driver</artifactId>
@@ -931,5 +931,5 @@
 			<name>HtmlUnit WebSite - Sourceforge</name>
 			<url>scp://shell.sourceforge.net/home/project-web/htmlunit/htdocs/</url>
 		</site>
-	</distributionManagement> -->
+	</distributionManagement>
 </project>
