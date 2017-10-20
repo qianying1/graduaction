@@ -18,7 +18,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
-import com.gargoylesoftware.htmlunit.SgmlPage;
+import com.grad.htmlunit.SgmlPage;
 
 /**
  * Superclass for the wrappers for the HTML elements "thead", "tbody" and "tfoot".

@@ -27,9 +27,9 @@ import org.apache.commons.io.FileUtils;
 import org.apache.commons.io.IOUtils;
 import org.apache.commons.lang3.StringUtils;
 
-import com.gargoylesoftware.htmlunit.Page;
-import com.gargoylesoftware.htmlunit.SgmlPage;
-import com.gargoylesoftware.htmlunit.WebResponse;
+import com.grad.htmlunit.Page;
+import com.grad.htmlunit.SgmlPage;
+import com.grad.htmlunit.WebResponse;
 import com.grad.htmlunit.core.util.MimeType;
 
 /**

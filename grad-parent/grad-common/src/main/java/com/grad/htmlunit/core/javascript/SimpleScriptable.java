@@ -14,10 +14,10 @@
  */
 package com.grad.htmlunit.core.javascript;
 
-import static com.gargoylesoftware.htmlunit.BrowserVersionFeatures.HTMLIMAGE_HTMLELEMENT;
-import static com.gargoylesoftware.htmlunit.BrowserVersionFeatures.HTMLIMAGE_HTMLUNKNOWNELEMENT;
-import static com.gargoylesoftware.htmlunit.BrowserVersionFeatures.JS_OBJECT_IN_QUIRKS_MODE;
-import static com.gargoylesoftware.htmlunit.BrowserVersionFeatures.SET_READONLY_PROPERTIES;
+import static com.grad.htmlunit.BrowserVersionFeatures.HTMLIMAGE_HTMLELEMENT;
+import static com.grad.htmlunit.BrowserVersionFeatures.HTMLIMAGE_HTMLUNKNOWNELEMENT;
+import static com.grad.htmlunit.BrowserVersionFeatures.JS_OBJECT_IN_QUIRKS_MODE;
+import static com.grad.htmlunit.BrowserVersionFeatures.SET_READONLY_PROPERTIES;
 
 import java.lang.reflect.Method;
 import java.util.Stack;
@@ -26,10 +26,10 @@ import org.apache.commons.collections.Transformer;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 
-import com.gargoylesoftware.htmlunit.BrowserVersion;
-import com.gargoylesoftware.htmlunit.Page;
-import com.gargoylesoftware.htmlunit.WebAssert;
-import com.gargoylesoftware.htmlunit.WebWindow;
+import com.grad.htmlunit.BrowserVersion;
+import com.grad.htmlunit.Page;
+import com.grad.htmlunit.WebAssert;
+import com.grad.htmlunit.WebWindow;
 import com.grad.htmlunit.core.html.DomNode;
 import com.grad.htmlunit.core.html.HtmlElement;
 import com.grad.htmlunit.core.html.HtmlImage;

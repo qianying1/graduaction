@@ -26,15 +26,15 @@ import org.w3c.dom.DocumentType;
 import org.w3c.dom.Element;
 import org.w3c.dom.Text;
 
-import com.gargoylesoftware.htmlunit.html.AbstractDomNodeList;
-import com.gargoylesoftware.htmlunit.html.DomAttr;
-import com.gargoylesoftware.htmlunit.html.DomCDataSection;
-import com.gargoylesoftware.htmlunit.html.DomComment;
-import com.gargoylesoftware.htmlunit.html.DomDocumentFragment;
-import com.gargoylesoftware.htmlunit.html.DomElement;
-import com.gargoylesoftware.htmlunit.html.DomNode;
-import com.gargoylesoftware.htmlunit.html.DomNodeList;
-import com.gargoylesoftware.htmlunit.html.DomText;
+import com.grad.htmlunit.html.AbstractDomNodeList;
+import com.grad.htmlunit.html.DomAttr;
+import com.grad.htmlunit.html.DomCDataSection;
+import com.grad.htmlunit.html.DomComment;
+import com.grad.htmlunit.html.DomDocumentFragment;
+import com.grad.htmlunit.html.DomElement;
+import com.grad.htmlunit.html.DomNode;
+import com.grad.htmlunit.html.DomNodeList;
+import com.grad.htmlunit.html.DomText;
 
 /**
  * A basic class of Standard Generalized Markup Language (SGML), e.g. HTML and XML.

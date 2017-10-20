@@ -14,8 +14,8 @@
  */
 package com.grad.htmlunit.core.javascript;
 
-import static com.gargoylesoftware.htmlunit.BrowserVersionFeatures.JS_ATTRIBUTES_BY_NAME_CASE_SENSITIVE;
-import static com.gargoylesoftware.htmlunit.BrowserVersionFeatures.JS_ATTRIBUTES_CONTAINS_EMPTY_ATTR_FOR_PROPERTIES;
+import static com.grad.htmlunit.BrowserVersionFeatures.JS_ATTRIBUTES_BY_NAME_CASE_SENSITIVE;
+import static com.grad.htmlunit.BrowserVersionFeatures.JS_ATTRIBUTES_CONTAINS_EMPTY_ATTR_FOR_PROPERTIES;
 import static com.grad.htmlunit.core.javascript.configuration.BrowserName.CHROME;
 import static com.grad.htmlunit.core.javascript.configuration.BrowserName.FF;
 import static com.grad.htmlunit.core.javascript.configuration.BrowserName.IE;

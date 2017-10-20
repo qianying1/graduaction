@@ -18,7 +18,7 @@ import java.io.PrintWriter;
 
 import org.w3c.dom.Comment;
 
-import com.gargoylesoftware.htmlunit.SgmlPage;
+import com.grad.htmlunit.SgmlPage;
 
 /**
  * Wrapper for the DOM node Comment.

@@ -34,12 +34,12 @@ import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.apache.http.auth.UsernamePasswordCredentials;
 
-import com.gargoylesoftware.htmlunit.AjaxController;
-import com.gargoylesoftware.htmlunit.FormEncodingType;
-import com.gargoylesoftware.htmlunit.HttpMethod;
-import com.gargoylesoftware.htmlunit.WebClient;
-import com.gargoylesoftware.htmlunit.WebRequest;
-import com.gargoylesoftware.htmlunit.WebResponse;
+import com.grad.htmlunit.AjaxController;
+import com.grad.htmlunit.FormEncodingType;
+import com.grad.htmlunit.HttpMethod;
+import com.grad.htmlunit.WebClient;
+import com.grad.htmlunit.WebRequest;
+import com.grad.htmlunit.WebResponse;
 import com.grad.htmlunit.core.html.HtmlPage;
 import com.grad.htmlunit.core.javascript.JavaScriptEngine;
 import com.grad.htmlunit.core.javascript.background.BackgroundJavaScriptFactory;

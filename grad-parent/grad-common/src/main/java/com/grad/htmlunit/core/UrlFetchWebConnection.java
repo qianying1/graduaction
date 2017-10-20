@@ -32,8 +32,8 @@ import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.apache.http.client.utils.URLEncodedUtils;
 
-import com.gargoylesoftware.htmlunit.util.Cookie;
-import com.gargoylesoftware.htmlunit.util.NameValuePair;
+import com.grad.htmlunit.util.Cookie;
+import com.grad.htmlunit.util.NameValuePair;
 
 /**
  * An implementation of {@link WebConnection}, compatible with Google App Engine.

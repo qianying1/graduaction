@@ -21,7 +21,7 @@ import java.util.List;
 
 import org.apache.commons.lang3.StringUtils;
 
-import com.gargoylesoftware.htmlunit.SgmlPage;
+import com.grad.htmlunit.SgmlPage;
 import com.grad.htmlunit.core.html.DomCDataSection;
 import com.grad.htmlunit.core.html.DomDocumentFragment;
 import com.grad.htmlunit.core.html.DomElement;

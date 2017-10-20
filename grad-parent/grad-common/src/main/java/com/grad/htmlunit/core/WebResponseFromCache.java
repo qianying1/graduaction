@@ -14,7 +14,7 @@
  */
 package com.grad.htmlunit.core;
 
-import com.gargoylesoftware.htmlunit.util.WebResponseWrapper;
+import com.grad.htmlunit.util.WebResponseWrapper;
 
 /**
  * A {@link WebResponse} implementation to deliver with content from cache. The response

@@ -14,14 +14,14 @@
  */
 package com.grad.htmlunit.core.httpclient;
 
-import static com.gargoylesoftware.htmlunit.BrowserVersionFeatures.HTTP_COOKIE_EXTRACT_PATH_FROM_LOCATION;
+import static com.grad.htmlunit.BrowserVersionFeatures.HTTP_COOKIE_EXTRACT_PATH_FROM_LOCATION;
 
 import org.apache.http.cookie.Cookie;
 import org.apache.http.cookie.CookieOrigin;
 import org.apache.http.cookie.MalformedCookieException;
 import org.apache.http.impl.cookie.BasicPathHandler;
 
-import com.gargoylesoftware.htmlunit.BrowserVersion;
+import com.grad.htmlunit.BrowserVersion;
 
 /**
  * Customized BasicPathHandler for HtmlUnit.

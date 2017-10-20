@@ -17,8 +17,8 @@ package com.grad.htmlunit.core.attachment;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.gargoylesoftware.htmlunit.Page;
-import com.gargoylesoftware.htmlunit.WebAssert;
+import com.grad.htmlunit.Page;
+import com.grad.htmlunit.WebAssert;
 
 /**
  * An {@link AttachmentHandler} implementation which creates an {@link Attachment} for

@@ -22,9 +22,9 @@ import org.w3c.dom.EntityReference;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 
-import com.gargoylesoftware.htmlunit.InteractivePage;
-import com.gargoylesoftware.htmlunit.WebResponse;
-import com.gargoylesoftware.htmlunit.WebWindow;
+import com.grad.htmlunit.InteractivePage;
+import com.grad.htmlunit.WebResponse;
+import com.grad.htmlunit.WebWindow;
 import com.grad.htmlunit.core.html.DomElement;
 import com.grad.htmlunit.core.html.DomProcessingInstruction;
 import com.grad.htmlunit.core.html.HTMLParser;

@@ -18,9 +18,9 @@ import java.awt.Frame;
 
 import org.apache.commons.lang3.StringUtils;
 
-import com.gargoylesoftware.htmlunit.WebClient;
-import com.gargoylesoftware.htmlunit.WebResponse;
-import com.gargoylesoftware.htmlunit.WebWindow;
+import com.grad.htmlunit.WebClient;
+import com.grad.htmlunit.WebResponse;
+import com.grad.htmlunit.WebWindow;
 import com.grad.htmlunit.core.javascript.HtmlUnitContextFactory;
 
 import net.sourceforge.htmlunit.corejs.javascript.debug.DebuggableScript;

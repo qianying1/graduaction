@@ -47,7 +47,7 @@ import org.apache.http.message.BufferedHeader;
 import org.apache.http.message.ParserCursor;
 import org.apache.http.util.CharArrayBuffer;
 
-import com.gargoylesoftware.htmlunit.BrowserVersion;
+import com.grad.htmlunit.BrowserVersion;
 
 /**
  * Customized BrowserCompatSpec for HtmlUnit.

@@ -14,15 +14,15 @@
  */
 package com.grad.htmlunit.core.html;
 
-import static com.gargoylesoftware.htmlunit.BrowserVersionFeatures.CSS_NOSCRIPT_DISPLAY_INLINE;
-import static com.gargoylesoftware.htmlunit.BrowserVersionFeatures.NOSCRIPT_BODY_AS_TEXT;
+import static com.grad.htmlunit.BrowserVersionFeatures.CSS_NOSCRIPT_DISPLAY_INLINE;
+import static com.grad.htmlunit.BrowserVersionFeatures.NOSCRIPT_BODY_AS_TEXT;
 
 import java.util.Map;
 
 import org.w3c.dom.Node;
 
-import com.gargoylesoftware.htmlunit.SgmlPage;
-import com.gargoylesoftware.htmlunit.WebClient;
+import com.grad.htmlunit.SgmlPage;
+import com.grad.htmlunit.WebClient;
 
 /**
  * Wrapper for the HTML element "noscript".

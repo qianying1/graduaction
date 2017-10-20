@@ -25,10 +25,10 @@ import org.apache.commons.io.IOUtils;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 
-import com.gargoylesoftware.htmlunit.DefaultPageCreator.PageType;
-import com.gargoylesoftware.htmlunit.util.EncodingSniffer;
-import com.gargoylesoftware.htmlunit.util.NameValuePair;
-import com.gargoylesoftware.htmlunit.xml.XmlUtil;
+import com.grad.htmlunit.DefaultPageCreator.PageType;
+import com.grad.htmlunit.util.EncodingSniffer;
+import com.grad.htmlunit.util.NameValuePair;
+import com.grad.htmlunit.xml.XmlUtil;
 
 /**
  * A response from a web server.

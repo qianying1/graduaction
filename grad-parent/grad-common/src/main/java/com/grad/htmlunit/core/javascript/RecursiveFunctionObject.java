@@ -14,20 +14,20 @@
  */
 package com.grad.htmlunit.core.javascript;
 
-import static com.gargoylesoftware.htmlunit.BrowserVersionFeatures.JS_FUNCTION_TOSTRING_ENUMERATED;
-import static com.gargoylesoftware.htmlunit.BrowserVersionFeatures.JS_IMAGE_HTML_IMAGE_ELEMENT;
-import static com.gargoylesoftware.htmlunit.BrowserVersionFeatures.JS_IMAGE_OBJECT;
-import static com.gargoylesoftware.htmlunit.BrowserVersionFeatures.JS_INTL_V8_BREAK_ITERATOR;
-import static com.gargoylesoftware.htmlunit.BrowserVersionFeatures.JS_OPTION_HTML_OPTION_ELEMENT;
-import static com.gargoylesoftware.htmlunit.BrowserVersionFeatures.JS_OPTION_OBJECT;
-import static com.gargoylesoftware.htmlunit.BrowserVersionFeatures.JS_XMLHTTPREQUEST_OBJECT;
-import static com.gargoylesoftware.htmlunit.BrowserVersionFeatures.JS_XSLTPROCESSOR_OBJECT;
+import static com.grad.htmlunit.BrowserVersionFeatures.JS_FUNCTION_TOSTRING_ENUMERATED;
+import static com.grad.htmlunit.BrowserVersionFeatures.JS_IMAGE_HTML_IMAGE_ELEMENT;
+import static com.grad.htmlunit.BrowserVersionFeatures.JS_IMAGE_OBJECT;
+import static com.grad.htmlunit.BrowserVersionFeatures.JS_INTL_V8_BREAK_ITERATOR;
+import static com.grad.htmlunit.BrowserVersionFeatures.JS_OPTION_HTML_OPTION_ELEMENT;
+import static com.grad.htmlunit.BrowserVersionFeatures.JS_OPTION_OBJECT;
+import static com.grad.htmlunit.BrowserVersionFeatures.JS_XMLHTTPREQUEST_OBJECT;
+import static com.grad.htmlunit.BrowserVersionFeatures.JS_XSLTPROCESSOR_OBJECT;
 
 import java.lang.reflect.Member;
 import java.util.LinkedHashSet;
 import java.util.Set;
 
-import com.gargoylesoftware.htmlunit.BrowserVersion;
+import com.grad.htmlunit.BrowserVersion;
 import com.grad.htmlunit.core.javascript.host.Window;
 
 import net.sourceforge.htmlunit.corejs.javascript.FunctionObject;

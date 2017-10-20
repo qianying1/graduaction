@@ -14,14 +14,14 @@
  */
 package com.grad.htmlunit.core.html;
 
-import static com.gargoylesoftware.htmlunit.BrowserVersionFeatures.CSS_RP_DISPLAY_NONE;
-import static com.gargoylesoftware.htmlunit.BrowserVersionFeatures.CSS_RT_DISPLAY_RUBY_TEXT_ALWAYS;
-import static com.gargoylesoftware.htmlunit.BrowserVersionFeatures.CSS_RUBY_DISPLAY_INLINE;
-import static com.gargoylesoftware.htmlunit.BrowserVersionFeatures.MULTICOL_BLOCK;
+import static com.grad.htmlunit.BrowserVersionFeatures.CSS_RP_DISPLAY_NONE;
+import static com.grad.htmlunit.BrowserVersionFeatures.CSS_RT_DISPLAY_RUBY_TEXT_ALWAYS;
+import static com.grad.htmlunit.BrowserVersionFeatures.CSS_RUBY_DISPLAY_INLINE;
+import static com.grad.htmlunit.BrowserVersionFeatures.MULTICOL_BLOCK;
 
 import java.util.Map;
 
-import com.gargoylesoftware.htmlunit.SgmlPage;
+import com.grad.htmlunit.SgmlPage;
 
 /**
  * An element that is returned for an HTML tag that is not supported by this framework.

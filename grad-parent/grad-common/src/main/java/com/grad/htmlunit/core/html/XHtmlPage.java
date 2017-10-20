@@ -16,8 +16,8 @@ package com.grad.htmlunit.core.html;
 
 import java.net.URL;
 
-import com.gargoylesoftware.htmlunit.WebResponse;
-import com.gargoylesoftware.htmlunit.WebWindow;
+import com.grad.htmlunit.WebResponse;
+import com.grad.htmlunit.WebWindow;
 
 /**
  * A representation of an XHTML page returned from a server.

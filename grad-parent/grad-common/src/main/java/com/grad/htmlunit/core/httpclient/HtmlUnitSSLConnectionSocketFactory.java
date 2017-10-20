@@ -47,7 +47,7 @@ import org.apache.http.conn.ssl.SSLConnectionSocketFactory;
 import org.apache.http.conn.ssl.SSLContexts;
 import org.apache.http.protocol.HttpContext;
 
-import com.gargoylesoftware.htmlunit.WebClientOptions;
+import com.grad.htmlunit.WebClientOptions;
 
 /**
  * Socket factory offering facilities for insecure SSL and for SOCKS proxy support.

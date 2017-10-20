@@ -14,7 +14,7 @@
  */
 package com.grad.htmlunit.core.html;
 
-import static com.gargoylesoftware.htmlunit.BrowserVersionFeatures.APPLET_INLINE_BLOCK;
+import static com.grad.htmlunit.BrowserVersionFeatures.APPLET_INLINE_BLOCK;
 
 import java.applet.Applet;
 import java.io.IOException;
@@ -29,12 +29,12 @@ import org.apache.commons.lang3.StringUtils;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 
-import com.gargoylesoftware.htmlunit.AppletConfirmHandler;
-import com.gargoylesoftware.htmlunit.FailingHttpStatusCodeException;
-import com.gargoylesoftware.htmlunit.SgmlPage;
-import com.gargoylesoftware.htmlunit.WebClient;
-import com.gargoylesoftware.htmlunit.WebRequest;
-import com.gargoylesoftware.htmlunit.WebResponse;
+import com.grad.htmlunit.AppletConfirmHandler;
+import com.grad.htmlunit.FailingHttpStatusCodeException;
+import com.grad.htmlunit.SgmlPage;
+import com.grad.htmlunit.WebClient;
+import com.grad.htmlunit.WebRequest;
+import com.grad.htmlunit.WebResponse;
 import com.grad.htmlunit.core.html.applets.AppletClassLoader;
 import com.grad.htmlunit.core.html.applets.AppletStubImpl;
 import com.grad.htmlunit.core.util.UrlUtils;

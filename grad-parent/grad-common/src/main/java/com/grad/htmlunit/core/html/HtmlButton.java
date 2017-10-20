@@ -14,8 +14,8 @@
  */
 package com.grad.htmlunit.core.html;
 
-import static com.gargoylesoftware.htmlunit.BrowserVersionFeatures.BUTTON_EMPTY_TYPE_BUTTON;
-import static com.gargoylesoftware.htmlunit.BrowserVersionFeatures.BUTTON_UNKNOWN_TYPE_DOES_NOT_SUBMIT;
+import static com.grad.htmlunit.BrowserVersionFeatures.BUTTON_EMPTY_TYPE_BUTTON;
+import static com.grad.htmlunit.BrowserVersionFeatures.BUTTON_UNKNOWN_TYPE_DOES_NOT_SUBMIT;
 
 import java.io.IOException;
 import java.util.Collection;
@@ -27,7 +27,7 @@ import java.util.Map;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 
-import com.gargoylesoftware.htmlunit.SgmlPage;
+import com.grad.htmlunit.SgmlPage;
 import com.grad.htmlunit.core.util.NameValuePair;
 
 /**

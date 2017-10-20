@@ -16,8 +16,8 @@ package com.grad.htmlunit.core.html;
 
 import java.util.Locale;
 
-import com.gargoylesoftware.htmlunit.SgmlPage;
-import com.gargoylesoftware.htmlunit.WebAssert;
+import com.grad.htmlunit.SgmlPage;
+import com.grad.htmlunit.WebAssert;
 import com.grad.htmlunit.core.html.xpath.XPathUtils;
 import com.grad.htmlunit.core.javascript.host.dom.Document;
 

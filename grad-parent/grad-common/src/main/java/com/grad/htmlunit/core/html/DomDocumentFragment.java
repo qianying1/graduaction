@@ -16,7 +16,7 @@ package com.grad.htmlunit.core.html;
 
 import org.w3c.dom.DocumentFragment;
 
-import com.gargoylesoftware.htmlunit.SgmlPage;
+import com.grad.htmlunit.SgmlPage;
 
 /**
  * A DOM object for DocumentFragment.

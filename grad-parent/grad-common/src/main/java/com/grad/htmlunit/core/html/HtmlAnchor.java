@@ -14,7 +14,7 @@
  */
 package com.grad.htmlunit.core.html;
 
-import static com.gargoylesoftware.htmlunit.BrowserVersionFeatures.ANCHOR_EMPTY_HREF_NO_FILENAME;
+import static com.grad.htmlunit.BrowserVersionFeatures.ANCHOR_EMPTY_HREF_NO_FILENAME;
 
 import java.io.IOException;
 import java.net.MalformedURLException;
@@ -25,11 +25,11 @@ import org.apache.commons.lang3.StringUtils;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 
-import com.gargoylesoftware.htmlunit.BrowserVersion;
-import com.gargoylesoftware.htmlunit.Page;
-import com.gargoylesoftware.htmlunit.SgmlPage;
-import com.gargoylesoftware.htmlunit.WebRequest;
-import com.gargoylesoftware.htmlunit.WebWindow;
+import com.grad.htmlunit.BrowserVersion;
+import com.grad.htmlunit.Page;
+import com.grad.htmlunit.SgmlPage;
+import com.grad.htmlunit.WebRequest;
+import com.grad.htmlunit.WebWindow;
 import com.grad.htmlunit.core.protocol.javascript.JavaScriptURLConnection;
 import com.grad.htmlunit.core.util.UrlUtils;
 

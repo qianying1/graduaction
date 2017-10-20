@@ -14,13 +14,13 @@
  */
 package com.grad.htmlunit.core.html;
 
-import static com.gargoylesoftware.htmlunit.BrowserVersionFeatures.CSS_FRAMESET_INLINE;
+import static com.grad.htmlunit.BrowserVersionFeatures.CSS_FRAMESET_INLINE;
 
 import java.net.URL;
 import java.util.Map;
 
-import com.gargoylesoftware.htmlunit.SgmlPage;
-import com.gargoylesoftware.htmlunit.WebClient;
+import com.grad.htmlunit.SgmlPage;
+import com.grad.htmlunit.WebClient;
 
 /**
  * Wrapper for the HTML element "meta".

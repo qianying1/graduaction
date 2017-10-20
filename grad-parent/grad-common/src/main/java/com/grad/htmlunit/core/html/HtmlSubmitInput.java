@@ -14,16 +14,16 @@
  */
 package com.grad.htmlunit.core.html;
 
-import static com.gargoylesoftware.htmlunit.BrowserVersionFeatures.HTMLINPUT_SET_VALUE_UPDATES_DEFAULT_VALUE;
-import static com.gargoylesoftware.htmlunit.BrowserVersionFeatures.SUBMITINPUT_DEFAULT_VALUE_IF_VALUE_NOT_DEFINED;
-import static com.gargoylesoftware.htmlunit.BrowserVersionFeatures.SUBMITINPUT_DEFAULT_VALUE_UNDEFINED;
+import static com.grad.htmlunit.BrowserVersionFeatures.HTMLINPUT_SET_VALUE_UPDATES_DEFAULT_VALUE;
+import static com.grad.htmlunit.BrowserVersionFeatures.SUBMITINPUT_DEFAULT_VALUE_IF_VALUE_NOT_DEFINED;
+import static com.grad.htmlunit.BrowserVersionFeatures.SUBMITINPUT_DEFAULT_VALUE_UNDEFINED;
 
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.Map;
 
-import com.gargoylesoftware.htmlunit.BrowserVersion;
-import com.gargoylesoftware.htmlunit.SgmlPage;
+import com.grad.htmlunit.BrowserVersion;
+import com.grad.htmlunit.SgmlPage;
 import com.grad.htmlunit.core.util.NameValuePair;
 import com.grad.htmlunit.core.util.StringUtils;
 

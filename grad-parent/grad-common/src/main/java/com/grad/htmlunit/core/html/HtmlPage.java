@@ -14,13 +14,13 @@
  */
 package com.grad.htmlunit.core.html;
 
-import static com.gargoylesoftware.htmlunit.BrowserVersionFeatures.EVENT_DOM_CONTENT_LOADED;
-import static com.gargoylesoftware.htmlunit.BrowserVersionFeatures.EVENT_ONBEFOREUNLOAD_USES_EVENT;
-import static com.gargoylesoftware.htmlunit.BrowserVersionFeatures.EVENT_ONLOAD_IFRAME_CREATED_BY_JAVASCRIPT;
-import static com.gargoylesoftware.htmlunit.BrowserVersionFeatures.FOCUS_BODY_ELEMENT_AT_START;
-import static com.gargoylesoftware.htmlunit.BrowserVersionFeatures.JS_DEFERRED;
-import static com.gargoylesoftware.htmlunit.BrowserVersionFeatures.JS_WINDOW_IN_STANDARDS_MODE;
-import static com.gargoylesoftware.htmlunit.BrowserVersionFeatures.URL_MISSING_SLASHES;
+import static com.grad.htmlunit.core.BrowserVersionFeatures.EVENT_DOM_CONTENT_LOADED;
+import static com.grad.htmlunit.core.BrowserVersionFeatures.EVENT_ONBEFOREUNLOAD_USES_EVENT;
+import static com.grad.htmlunit.core.BrowserVersionFeatures.EVENT_ONLOAD_IFRAME_CREATED_BY_JAVASCRIPT;
+import static com.grad.htmlunit.core.BrowserVersionFeatures.FOCUS_BODY_ELEMENT_AT_START;
+import static com.grad.htmlunit.core.BrowserVersionFeatures.JS_DEFERRED;
+import static com.grad.htmlunit.core.BrowserVersionFeatures.JS_WINDOW_IN_STANDARDS_MODE;
+import static com.grad.htmlunit.core.BrowserVersionFeatures.URL_MISSING_SLASHES;
 
 import java.io.File;
 import java.io.IOException;
@@ -56,21 +56,21 @@ import org.w3c.dom.Element;
 import org.w3c.dom.EntityReference;
 import org.w3c.dom.ProcessingInstruction;
 
-import com.gargoylesoftware.htmlunit.Cache;
-import com.gargoylesoftware.htmlunit.ElementNotFoundException;
-import com.gargoylesoftware.htmlunit.FailingHttpStatusCodeException;
-import com.gargoylesoftware.htmlunit.History;
-import com.gargoylesoftware.htmlunit.InteractivePage;
-import com.gargoylesoftware.htmlunit.OnbeforeunloadHandler;
-import com.gargoylesoftware.htmlunit.Page;
-import com.gargoylesoftware.htmlunit.ScriptResult;
-import com.gargoylesoftware.htmlunit.TextUtil;
-import com.gargoylesoftware.htmlunit.TopLevelWindow;
-import com.gargoylesoftware.htmlunit.WebAssert;
-import com.gargoylesoftware.htmlunit.WebClient;
-import com.gargoylesoftware.htmlunit.WebRequest;
-import com.gargoylesoftware.htmlunit.WebResponse;
-import com.gargoylesoftware.htmlunit.WebWindow;
+import com.grad.htmlunit.Cache;
+import com.grad.htmlunit.ElementNotFoundException;
+import com.grad.htmlunit.FailingHttpStatusCodeException;
+import com.grad.htmlunit.History;
+import com.grad.htmlunit.InteractivePage;
+import com.grad.htmlunit.OnbeforeunloadHandler;
+import com.grad.htmlunit.Page;
+import com.grad.htmlunit.ScriptResult;
+import com.grad.htmlunit.TextUtil;
+import com.grad.htmlunit.TopLevelWindow;
+import com.grad.htmlunit.WebAssert;
+import com.grad.htmlunit.WebClient;
+import com.grad.htmlunit.WebRequest;
+import com.grad.htmlunit.WebResponse;
+import com.grad.htmlunit.WebWindow;
 import com.grad.htmlunit.core.html.HTMLParser.HtmlUnitDOMBuilder;
 import com.grad.htmlunit.core.javascript.JavaScriptEngine;
 import com.grad.htmlunit.core.javascript.JavaScriptErrorListener;

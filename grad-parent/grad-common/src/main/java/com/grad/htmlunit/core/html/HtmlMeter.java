@@ -14,11 +14,11 @@
  */
 package com.grad.htmlunit.core.html;
 
-import static com.gargoylesoftware.htmlunit.BrowserVersionFeatures.CSS_DISPLAY_BLOCK2;
+import static com.grad.htmlunit.BrowserVersionFeatures.CSS_DISPLAY_BLOCK2;
 
 import java.util.Map;
 
-import com.gargoylesoftware.htmlunit.SgmlPage;
+import com.grad.htmlunit.SgmlPage;
 
 /**
  * HTML 5 "meter" element.

@@ -24,7 +24,7 @@ import org.apache.http.client.CookieStore;
 import org.apache.http.cookie.ClientCookie;
 import org.apache.http.cookie.Cookie;
 
-import com.gargoylesoftware.htmlunit.CookieManager;
+import com.grad.htmlunit.CookieManager;
 
 /**
  * Implementation of {@link CookieStore} like {@link org.apache.http.impl.client.BasicCookieStore}

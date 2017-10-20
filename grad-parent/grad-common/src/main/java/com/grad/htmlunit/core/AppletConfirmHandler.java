@@ -14,7 +14,7 @@
  */
 package com.grad.htmlunit.core;
 
-import com.gargoylesoftware.htmlunit.html.HtmlApplet;
+import com.grad.htmlunit.html.HtmlApplet;
 
 /**
  * A handler for Applets. Like in real browsers, you have to confirm

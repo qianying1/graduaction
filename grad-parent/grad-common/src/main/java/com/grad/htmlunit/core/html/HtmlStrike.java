@@ -16,7 +16,7 @@ package com.grad.htmlunit.core.html;
 
 import java.util.Map;
 
-import com.gargoylesoftware.htmlunit.SgmlPage;
+import com.grad.htmlunit.SgmlPage;
 
 /**
  * Wrapper for the HTML element "strike".

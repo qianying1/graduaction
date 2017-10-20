@@ -14,11 +14,11 @@
  */
 package com.grad.htmlunit.core.html;
 
-import static com.gargoylesoftware.htmlunit.BrowserVersionFeatures.BUTTON_EMPTY_TYPE_BUTTON;
-import static com.gargoylesoftware.htmlunit.BrowserVersionFeatures.EVENT_INPUT;
-import static com.gargoylesoftware.htmlunit.BrowserVersionFeatures.EVENT_PROPERTY_CHANGE;
-import static com.gargoylesoftware.htmlunit.BrowserVersionFeatures.HTMLELEMENT_ATTRIBUTE_HIDDEN_IGNORED;
-import static com.gargoylesoftware.htmlunit.BrowserVersionFeatures.KEYBOARD_EVENT_SPECIAL_KEYPRESS;
+import static com.grad.htmlunit.BrowserVersionFeatures.BUTTON_EMPTY_TYPE_BUTTON;
+import static com.grad.htmlunit.BrowserVersionFeatures.EVENT_INPUT;
+import static com.grad.htmlunit.BrowserVersionFeatures.EVENT_PROPERTY_CHANGE;
+import static com.grad.htmlunit.BrowserVersionFeatures.HTMLELEMENT_ATTRIBUTE_HIDDEN_IGNORED;
+import static com.grad.htmlunit.BrowserVersionFeatures.KEYBOARD_EVENT_SPECIAL_KEYPRESS;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -42,13 +42,13 @@ import org.w3c.dom.Node;
 import org.w3c.dom.ProcessingInstruction;
 import org.w3c.dom.Text;
 
-import com.gargoylesoftware.htmlunit.BrowserVersion;
-import com.gargoylesoftware.htmlunit.ElementNotFoundException;
-import com.gargoylesoftware.htmlunit.Page;
-import com.gargoylesoftware.htmlunit.ScriptResult;
-import com.gargoylesoftware.htmlunit.SgmlPage;
-import com.gargoylesoftware.htmlunit.WebAssert;
-import com.gargoylesoftware.htmlunit.WebClient;
+import com.grad.htmlunit.BrowserVersion;
+import com.grad.htmlunit.ElementNotFoundException;
+import com.grad.htmlunit.Page;
+import com.grad.htmlunit.ScriptResult;
+import com.grad.htmlunit.SgmlPage;
+import com.grad.htmlunit.WebAssert;
+import com.grad.htmlunit.WebClient;
 import com.grad.htmlunit.core.javascript.host.event.Event;
 import com.grad.htmlunit.core.javascript.host.event.EventHandler;
 import com.grad.htmlunit.core.javascript.host.event.KeyboardEvent;

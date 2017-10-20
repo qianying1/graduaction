@@ -14,17 +14,17 @@
  */
 package com.grad.htmlunit.core.html;
 
-import static com.gargoylesoftware.htmlunit.BrowserVersionFeatures.DOCTYPE_IS_COMMENT;
-import static com.gargoylesoftware.htmlunit.BrowserVersionFeatures.HTMLCONDITIONAL_COMMENTS;
-import static com.gargoylesoftware.htmlunit.BrowserVersionFeatures.HTMLIFRAME_IGNORE_SELFCLOSING;
-import static com.gargoylesoftware.htmlunit.BrowserVersionFeatures.HTMLPARSER_REMOVE_EMPTY_CONTENT;
-import static com.gargoylesoftware.htmlunit.BrowserVersionFeatures.HTML_ATTRIBUTE_LOWER_CASE;
-import static com.gargoylesoftware.htmlunit.BrowserVersionFeatures.HTML_CDATA_AS_COMMENT;
-import static com.gargoylesoftware.htmlunit.BrowserVersionFeatures.IGNORE_CONTENTS_OF_INNER_HEAD;
-import static com.gargoylesoftware.htmlunit.BrowserVersionFeatures.JS_DEFINE_GETTER;
-import static com.gargoylesoftware.htmlunit.BrowserVersionFeatures.META_X_UA_COMPATIBLE;
-import static com.gargoylesoftware.htmlunit.BrowserVersionFeatures.PAGE_WAIT_LOAD_BEFORE_BODY;
-import static com.gargoylesoftware.htmlunit.BrowserVersionFeatures.SVG;
+import static com.grad.htmlunit.BrowserVersionFeatures.DOCTYPE_IS_COMMENT;
+import static com.grad.htmlunit.BrowserVersionFeatures.HTMLCONDITIONAL_COMMENTS;
+import static com.grad.htmlunit.BrowserVersionFeatures.HTMLIFRAME_IGNORE_SELFCLOSING;
+import static com.grad.htmlunit.BrowserVersionFeatures.HTMLPARSER_REMOVE_EMPTY_CONTENT;
+import static com.grad.htmlunit.BrowserVersionFeatures.HTML_ATTRIBUTE_LOWER_CASE;
+import static com.grad.htmlunit.BrowserVersionFeatures.HTML_CDATA_AS_COMMENT;
+import static com.grad.htmlunit.BrowserVersionFeatures.IGNORE_CONTENTS_OF_INNER_HEAD;
+import static com.grad.htmlunit.BrowserVersionFeatures.JS_DEFINE_GETTER;
+import static com.grad.htmlunit.BrowserVersionFeatures.META_X_UA_COMPATIBLE;
+import static com.grad.htmlunit.BrowserVersionFeatures.PAGE_WAIT_LOAD_BEFORE_BODY;
+import static com.grad.htmlunit.BrowserVersionFeatures.SVG;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -65,14 +65,14 @@ import org.xml.sax.Locator;
 import org.xml.sax.SAXException;
 import org.xml.sax.ext.LexicalHandler;
 
-import com.gargoylesoftware.htmlunit.BrowserVersion;
-import com.gargoylesoftware.htmlunit.ObjectInstantiationException;
-import com.gargoylesoftware.htmlunit.Page;
-import com.gargoylesoftware.htmlunit.SgmlPage;
-import com.gargoylesoftware.htmlunit.WebAssert;
-import com.gargoylesoftware.htmlunit.WebClient;
-import com.gargoylesoftware.htmlunit.WebResponse;
-import com.gargoylesoftware.htmlunit.WebWindow;
+import com.grad.htmlunit.BrowserVersion;
+import com.grad.htmlunit.ObjectInstantiationException;
+import com.grad.htmlunit.Page;
+import com.grad.htmlunit.SgmlPage;
+import com.grad.htmlunit.WebAssert;
+import com.grad.htmlunit.WebClient;
+import com.grad.htmlunit.WebResponse;
+import com.grad.htmlunit.WebWindow;
 import com.grad.htmlunit.core.javascript.host.html.HTMLBodyElement;
 import com.grad.htmlunit.core.javascript.host.html.HTMLDocument;
 import com.grad.htmlunit.core.javascript.host.html.HTMLElement;

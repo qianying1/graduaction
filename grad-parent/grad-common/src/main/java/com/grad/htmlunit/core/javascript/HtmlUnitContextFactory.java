@@ -14,20 +14,20 @@
  */
 package com.grad.htmlunit.core.javascript;
 
-import static com.gargoylesoftware.htmlunit.BrowserVersionFeatures.HTMLCONDITIONAL_COMMENTS;
-import static com.gargoylesoftware.htmlunit.BrowserVersionFeatures.JS_ARGUMENTS_IS_OBJECT;
-import static com.gargoylesoftware.htmlunit.BrowserVersionFeatures.JS_ARGUMENTS_READ_ONLY_ACCESSED_FROM_FUNCTION;
-import static com.gargoylesoftware.htmlunit.BrowserVersionFeatures.JS_ERROR_STACK;
-import static com.gargoylesoftware.htmlunit.BrowserVersionFeatures.JS_EVAL_LOCAL_SCOPE;
-import static com.gargoylesoftware.htmlunit.BrowserVersionFeatures.JS_IGNORES_LAST_LINE_CONTAINING_UNCOMMENTED;
-import static com.gargoylesoftware.htmlunit.BrowserVersionFeatures.JS_NON_ECMA_GET_YEAR;
-import static com.gargoylesoftware.htmlunit.BrowserVersionFeatures.JS_PARENT_PROTO_PROPERTIES;
+import static com.grad.htmlunit.BrowserVersionFeatures.HTMLCONDITIONAL_COMMENTS;
+import static com.grad.htmlunit.BrowserVersionFeatures.JS_ARGUMENTS_IS_OBJECT;
+import static com.grad.htmlunit.BrowserVersionFeatures.JS_ARGUMENTS_READ_ONLY_ACCESSED_FROM_FUNCTION;
+import static com.grad.htmlunit.BrowserVersionFeatures.JS_ERROR_STACK;
+import static com.grad.htmlunit.BrowserVersionFeatures.JS_EVAL_LOCAL_SCOPE;
+import static com.grad.htmlunit.BrowserVersionFeatures.JS_IGNORES_LAST_LINE_CONTAINING_UNCOMMENTED;
+import static com.grad.htmlunit.BrowserVersionFeatures.JS_NON_ECMA_GET_YEAR;
+import static com.grad.htmlunit.BrowserVersionFeatures.JS_PARENT_PROTO_PROPERTIES;
 
-import com.gargoylesoftware.htmlunit.BrowserVersion;
-import com.gargoylesoftware.htmlunit.BrowserVersionFeatures;
-import com.gargoylesoftware.htmlunit.ScriptPreProcessor;
-import com.gargoylesoftware.htmlunit.WebAssert;
-import com.gargoylesoftware.htmlunit.WebClient;
+import com.grad.htmlunit.BrowserVersion;
+import com.grad.htmlunit.BrowserVersionFeatures;
+import com.grad.htmlunit.ScriptPreProcessor;
+import com.grad.htmlunit.WebAssert;
+import com.grad.htmlunit.WebClient;
 import com.grad.htmlunit.core.html.HtmlElement;
 import com.grad.htmlunit.core.html.HtmlPage;
 import com.grad.htmlunit.core.javascript.regexp.HtmlUnitRegExpProxy;

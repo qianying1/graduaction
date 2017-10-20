@@ -16,7 +16,7 @@ package com.grad.htmlunit.core.html;
 
 import org.apache.commons.lang3.StringUtils;
 
-import com.gargoylesoftware.htmlunit.BrowserVersion;
+import com.grad.htmlunit.BrowserVersion;
 
 /**
  * Evaluator for IE conditional expressions.

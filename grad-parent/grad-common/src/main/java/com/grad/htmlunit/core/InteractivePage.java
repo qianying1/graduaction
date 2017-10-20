@@ -14,20 +14,20 @@
  */
 package com.grad.htmlunit.core;
 
-import static com.gargoylesoftware.htmlunit.BrowserVersionFeatures.PAGE_SELECTION_RANGE_FROM_SELECTABLE_TEXT_INPUT;
+import static com.grad.htmlunit.BrowserVersionFeatures.PAGE_SELECTION_RANGE_FROM_SELECTABLE_TEXT_INPUT;
 
 import java.util.ArrayList;
 import java.util.List;
 
 import org.w3c.dom.ranges.Range;
 
-import com.gargoylesoftware.htmlunit.html.DomElement;
-import com.gargoylesoftware.htmlunit.html.DomNode;
-import com.gargoylesoftware.htmlunit.html.impl.SelectableTextInput;
-import com.gargoylesoftware.htmlunit.html.impl.SimpleRange;
-import com.gargoylesoftware.htmlunit.javascript.JavaScriptEngine;
-import com.gargoylesoftware.htmlunit.javascript.SimpleScriptable;
-import com.gargoylesoftware.htmlunit.javascript.host.event.Event;
+import com.grad.htmlunit.core.javascript1.JavaScriptEngine;
+import com.grad.htmlunit.core.javascript1.SimpleScriptable;
+import com.grad.htmlunit.core.javascript1.host.event.Event;
+import com.grad.htmlunit.html.DomElement;
+import com.grad.htmlunit.html.DomNode;
+import com.grad.htmlunit.html.impl.SelectableTextInput;
+import com.grad.htmlunit.html.impl.SimpleRange;
 
 import net.sourceforge.htmlunit.corejs.javascript.Function;
 import net.sourceforge.htmlunit.corejs.javascript.Scriptable;

@@ -14,7 +14,7 @@
  */
 package com.grad.htmlunit.core.html;
 
-import static com.gargoylesoftware.htmlunit.BrowserVersionFeatures.HTMLTEXTAREA_REMOVE_NEWLINE_FROM_TEXT;
+import static com.grad.htmlunit.BrowserVersionFeatures.HTMLTEXTAREA_REMOVE_NEWLINE_FROM_TEXT;
 
 import java.util.Iterator;
 import java.util.List;
@@ -22,7 +22,7 @@ import java.util.regex.Pattern;
 
 import org.apache.commons.lang3.StringUtils;
 
-import com.gargoylesoftware.htmlunit.BrowserVersion;
+import com.grad.htmlunit.BrowserVersion;
 
 /**
  * Utility to handle conversion from HTML code to string.

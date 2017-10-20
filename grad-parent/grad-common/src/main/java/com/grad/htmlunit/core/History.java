@@ -21,7 +21,7 @@ import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.gargoylesoftware.htmlunit.util.UrlUtils;
+import com.grad.htmlunit.util.UrlUtils;
 
 /**
  * Representation of the navigation history of a single window.

@@ -16,10 +16,10 @@ package com.grad.htmlunit.core.util;
 
 import java.io.IOException;
 
-import com.gargoylesoftware.htmlunit.WebClient;
-import com.gargoylesoftware.htmlunit.WebConnection;
-import com.gargoylesoftware.htmlunit.WebRequest;
-import com.gargoylesoftware.htmlunit.WebResponse;
+import com.grad.htmlunit.WebClient;
+import com.grad.htmlunit.WebConnection;
+import com.grad.htmlunit.WebRequest;
+import com.grad.htmlunit.WebResponse;
 
 /**
  * <p>Provides a convenient implementation of the {@link WebConnection} interface that can be subclassed by developers

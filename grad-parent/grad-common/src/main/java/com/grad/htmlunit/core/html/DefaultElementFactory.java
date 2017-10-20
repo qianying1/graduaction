@@ -14,8 +14,8 @@
  */
 package com.grad.htmlunit.core.html;
 
-import static com.gargoylesoftware.htmlunit.BrowserVersionFeatures.CANVAS;
-import static com.gargoylesoftware.htmlunit.BrowserVersionFeatures.HTML5_TAGS;
+import static com.grad.htmlunit.BrowserVersionFeatures.CANVAS;
+import static com.grad.htmlunit.BrowserVersionFeatures.HTML5_TAGS;
 
 import java.util.Arrays;
 import java.util.LinkedHashMap;
@@ -25,7 +25,7 @@ import java.util.Map;
 
 import org.xml.sax.Attributes;
 
-import com.gargoylesoftware.htmlunit.SgmlPage;
+import com.grad.htmlunit.SgmlPage;
 import com.grad.htmlunit.core.javascript.configuration.JavaScriptConfiguration;
 
 /**

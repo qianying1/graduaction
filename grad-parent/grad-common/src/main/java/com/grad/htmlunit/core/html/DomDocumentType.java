@@ -17,7 +17,7 @@ package com.grad.htmlunit.core.html;
 import org.w3c.dom.DocumentType;
 import org.w3c.dom.NamedNodeMap;
 
-import com.gargoylesoftware.htmlunit.SgmlPage;
+import com.grad.htmlunit.SgmlPage;
 
 /**
  * A DOM object for DocumentType.

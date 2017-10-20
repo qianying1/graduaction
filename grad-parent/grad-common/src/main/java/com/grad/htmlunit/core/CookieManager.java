@@ -26,9 +26,9 @@ import java.util.Set;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.http.cookie.CookieOrigin;
 
-import com.gargoylesoftware.htmlunit.httpclient.HtmlUnitBrowserCompatCookieSpec;
-import com.gargoylesoftware.htmlunit.util.Cookie;
-import com.gargoylesoftware.htmlunit.util.UrlUtils;
+import com.grad.htmlunit.httpclient.HtmlUnitBrowserCompatCookieSpec;
+import com.grad.htmlunit.util.Cookie;
+import com.grad.htmlunit.util.UrlUtils;
 
 /**
  * Manages cookies for a {@link WebClient}. This class is thread-safe.

@@ -32,7 +32,7 @@ import javax.xml.transform.stream.StreamResult;
 import org.apache.commons.lang3.StringUtils;
 import org.w3c.dom.NodeList;
 
-import com.gargoylesoftware.htmlunit.SgmlPage;
+import com.grad.htmlunit.SgmlPage;
 import com.grad.htmlunit.core.html.DomDocumentFragment;
 import com.grad.htmlunit.core.html.DomNode;
 import com.grad.htmlunit.core.html.DomText;

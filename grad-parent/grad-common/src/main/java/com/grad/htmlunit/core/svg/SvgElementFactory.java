@@ -14,14 +14,14 @@
  */
 package com.grad.htmlunit.core.svg;
 
-import static com.gargoylesoftware.htmlunit.BrowserVersionFeatures.SVG_UNKNOWN_ARE_DOM;
+import static com.grad.htmlunit.BrowserVersionFeatures.SVG_UNKNOWN_ARE_DOM;
 
 import java.util.LinkedHashMap;
 import java.util.Map;
 
 import org.xml.sax.Attributes;
 
-import com.gargoylesoftware.htmlunit.SgmlPage;
+import com.grad.htmlunit.SgmlPage;
 import com.grad.htmlunit.core.html.DomAttr;
 import com.grad.htmlunit.core.html.DomElement;
 import com.grad.htmlunit.core.html.ElementFactory;

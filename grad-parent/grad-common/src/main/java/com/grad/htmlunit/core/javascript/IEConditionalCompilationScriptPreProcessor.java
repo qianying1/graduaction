@@ -21,8 +21,8 @@ import java.util.regex.Pattern;
 
 import org.apache.commons.lang3.ArrayUtils;
 
-import com.gargoylesoftware.htmlunit.BrowserVersion;
-import com.gargoylesoftware.htmlunit.ScriptPreProcessor;
+import com.grad.htmlunit.BrowserVersion;
+import com.grad.htmlunit.ScriptPreProcessor;
 import com.grad.htmlunit.core.html.HtmlElement;
 import com.grad.htmlunit.core.html.HtmlPage;
 import com.grad.htmlunit.core.util.StringUtils;

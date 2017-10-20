@@ -14,7 +14,7 @@
  */
 package com.grad.htmlunit.core.html;
 
-import static com.gargoylesoftware.htmlunit.BrowserVersionFeatures.FILEINPUT_EMPTY_DEFAULT_VALUE;
+import static com.grad.htmlunit.BrowserVersionFeatures.FILEINPUT_EMPTY_DEFAULT_VALUE;
 
 import java.io.File;
 import java.net.URI;
@@ -26,8 +26,8 @@ import java.util.Map;
 
 import org.apache.commons.lang3.StringUtils;
 
-import com.gargoylesoftware.htmlunit.Page;
-import com.gargoylesoftware.htmlunit.SgmlPage;
+import com.grad.htmlunit.Page;
+import com.grad.htmlunit.SgmlPage;
 import com.grad.htmlunit.core.util.KeyDataPair;
 import com.grad.htmlunit.core.util.NameValuePair;
 

@@ -14,7 +14,7 @@
  */
 package com.grad.htmlunit.core.html;
 
-import static com.gargoylesoftware.htmlunit.BrowserVersionFeatures.FORM_SUBMISSION_URL_WITHOUT_HASH;
+import static com.grad.htmlunit.BrowserVersionFeatures.FORM_SUBMISSION_URL_WITHOUT_HASH;
 
 import java.net.MalformedURLException;
 import java.net.URL;
@@ -30,17 +30,17 @@ import java.util.regex.Pattern;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.http.client.utils.URLEncodedUtils;
 
-import com.gargoylesoftware.htmlunit.BrowserVersion;
-import com.gargoylesoftware.htmlunit.ElementNotFoundException;
-import com.gargoylesoftware.htmlunit.FormEncodingType;
-import com.gargoylesoftware.htmlunit.HttpMethod;
-import com.gargoylesoftware.htmlunit.Page;
-import com.gargoylesoftware.htmlunit.ScriptResult;
-import com.gargoylesoftware.htmlunit.SgmlPage;
-import com.gargoylesoftware.htmlunit.WebAssert;
-import com.gargoylesoftware.htmlunit.WebClient;
-import com.gargoylesoftware.htmlunit.WebRequest;
-import com.gargoylesoftware.htmlunit.WebWindow;
+import com.grad.htmlunit.BrowserVersion;
+import com.grad.htmlunit.ElementNotFoundException;
+import com.grad.htmlunit.FormEncodingType;
+import com.grad.htmlunit.HttpMethod;
+import com.grad.htmlunit.Page;
+import com.grad.htmlunit.ScriptResult;
+import com.grad.htmlunit.SgmlPage;
+import com.grad.htmlunit.WebAssert;
+import com.grad.htmlunit.WebClient;
+import com.grad.htmlunit.WebRequest;
+import com.grad.htmlunit.WebWindow;
 import com.grad.htmlunit.core.javascript.host.event.Event;
 import com.grad.htmlunit.core.protocol.javascript.JavaScriptURLConnection;
 import com.grad.htmlunit.core.util.NameValuePair;

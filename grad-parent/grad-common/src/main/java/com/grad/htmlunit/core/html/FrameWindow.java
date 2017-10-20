@@ -14,11 +14,11 @@
  */
 package com.grad.htmlunit.core.html;
 
-import com.gargoylesoftware.htmlunit.Page;
-import com.gargoylesoftware.htmlunit.StringWebResponse;
-import com.gargoylesoftware.htmlunit.WebResponse;
-import com.gargoylesoftware.htmlunit.WebWindow;
-import com.gargoylesoftware.htmlunit.WebWindowImpl;
+import com.grad.htmlunit.Page;
+import com.grad.htmlunit.StringWebResponse;
+import com.grad.htmlunit.WebResponse;
+import com.grad.htmlunit.WebWindow;
+import com.grad.htmlunit.WebWindowImpl;
 
 /**
  * The web window for a frame or iframe.

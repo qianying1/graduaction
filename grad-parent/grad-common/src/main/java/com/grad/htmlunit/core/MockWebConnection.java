@@ -25,7 +25,7 @@ import java.util.Map;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 
-import com.gargoylesoftware.htmlunit.util.NameValuePair;
+import com.grad.htmlunit.core.util.NameValuePair;
 
 /**
  * A fake {@link WebConnection} designed to mock out the actual HTTP connections.

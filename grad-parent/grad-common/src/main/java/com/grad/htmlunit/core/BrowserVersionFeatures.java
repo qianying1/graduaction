@@ -14,12 +14,12 @@
  */
 package com.grad.htmlunit.core;
 
-import static com.gargoylesoftware.htmlunit.javascript.configuration.BrowserName.CHROME;
-import static com.gargoylesoftware.htmlunit.javascript.configuration.BrowserName.FF;
-import static com.gargoylesoftware.htmlunit.javascript.configuration.BrowserName.IE;
+import static com.grad.htmlunit.core.javascript.configuration.BrowserName.CHROME;
+import static com.grad.htmlunit.core.javascript.configuration.BrowserName.FF;
+import static com.grad.htmlunit.core.javascript.configuration.BrowserName.IE;
 
-import com.gargoylesoftware.htmlunit.javascript.configuration.BrowserFeature;
-import com.gargoylesoftware.htmlunit.javascript.configuration.WebBrowser;
+import com.grad.htmlunit.core.javascript.configuration.BrowserFeature;
+import com.grad.htmlunit.core.javascript.configuration.WebBrowser;
 
 /**
  * Constants of various features of each {@link BrowserVersion}.

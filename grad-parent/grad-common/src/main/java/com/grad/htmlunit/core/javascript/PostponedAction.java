@@ -16,7 +16,7 @@ package com.grad.htmlunit.core.javascript;
 
 import java.lang.ref.WeakReference;
 
-import com.gargoylesoftware.htmlunit.Page;
+import com.grad.htmlunit.Page;
 
 /**
  * An action triggered by a script execution but that should be executed first when the script is finished.

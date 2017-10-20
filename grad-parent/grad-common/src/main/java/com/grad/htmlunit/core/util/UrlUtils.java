@@ -22,7 +22,7 @@ import java.util.BitSet;
 import org.apache.commons.codec.DecoderException;
 import org.apache.commons.codec.net.URLCodec;
 
-import com.gargoylesoftware.htmlunit.WebAssert;
+import com.grad.htmlunit.WebAssert;
 
 /**
  * URL utilities class that makes it easy to create new URLs based off of old URLs

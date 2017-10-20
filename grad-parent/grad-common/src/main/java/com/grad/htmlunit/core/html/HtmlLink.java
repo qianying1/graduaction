@@ -14,17 +14,17 @@
  */
 package com.grad.htmlunit.core.html;
 
-import static com.gargoylesoftware.htmlunit.BrowserVersionFeatures.CSS_DISPLAY_BLOCK2;
+import static com.grad.htmlunit.BrowserVersionFeatures.CSS_DISPLAY_BLOCK2;
 
 import java.io.IOException;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.Map;
 
-import com.gargoylesoftware.htmlunit.SgmlPage;
-import com.gargoylesoftware.htmlunit.WebClient;
-import com.gargoylesoftware.htmlunit.WebRequest;
-import com.gargoylesoftware.htmlunit.WebResponse;
+import com.grad.htmlunit.SgmlPage;
+import com.grad.htmlunit.WebClient;
+import com.grad.htmlunit.WebRequest;
+import com.grad.htmlunit.WebResponse;
 
 /**
  * Wrapper for the HTML element "link". <b>Note:</b> This is not a clickable link,

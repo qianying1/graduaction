@@ -19,7 +19,7 @@ import java.io.PrintWriter;
 import org.w3c.dom.DOMException;
 import org.w3c.dom.Text;
 
-import com.gargoylesoftware.htmlunit.SgmlPage;
+import com.grad.htmlunit.SgmlPage;
 import com.grad.htmlunit.core.html.impl.SelectionDelegate;
 import com.grad.htmlunit.core.html.impl.SimpleSelectionDelegate;
 import com.grad.htmlunit.core.util.StringUtils;

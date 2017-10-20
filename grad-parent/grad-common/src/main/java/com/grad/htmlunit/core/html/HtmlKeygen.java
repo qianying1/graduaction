@@ -14,12 +14,12 @@
  */
 package com.grad.htmlunit.core.html;
 
-import static com.gargoylesoftware.htmlunit.BrowserVersionFeatures.CSS_KEYGEN_DISPLAY_INLINE_ALWAYS;
-import static com.gargoylesoftware.htmlunit.BrowserVersionFeatures.CSS_KEYGEN_DISPLAY_INLINE_JS;
+import static com.grad.htmlunit.BrowserVersionFeatures.CSS_KEYGEN_DISPLAY_INLINE_ALWAYS;
+import static com.grad.htmlunit.BrowserVersionFeatures.CSS_KEYGEN_DISPLAY_INLINE_JS;
 
 import java.util.Map;
 
-import com.gargoylesoftware.htmlunit.SgmlPage;
+import com.grad.htmlunit.SgmlPage;
 
 /**
  * Wrapper for the HTML element "keygen".

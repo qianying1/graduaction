@@ -14,7 +14,7 @@
  */
 package com.grad.htmlunit.core.html;
 
-import static com.gargoylesoftware.htmlunit.BrowserVersionFeatures.CSS_DISPLAY_BLOCK;
+import static com.grad.htmlunit.BrowserVersionFeatures.CSS_DISPLAY_BLOCK;
 
 import java.awt.geom.Ellipse2D;
 import java.awt.geom.GeneralPath;
@@ -27,10 +27,10 @@ import java.util.Map;
 
 import org.apache.commons.lang3.StringUtils;
 
-import com.gargoylesoftware.htmlunit.SgmlPage;
-import com.gargoylesoftware.htmlunit.WebClient;
-import com.gargoylesoftware.htmlunit.WebRequest;
-import com.gargoylesoftware.htmlunit.WebWindow;
+import com.grad.htmlunit.SgmlPage;
+import com.grad.htmlunit.WebClient;
+import com.grad.htmlunit.WebRequest;
+import com.grad.htmlunit.WebWindow;
 import com.grad.htmlunit.core.protocol.javascript.JavaScriptURLConnection;
 
 /**

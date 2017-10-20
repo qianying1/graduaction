@@ -14,7 +14,7 @@
  */
 package com.grad.htmlunit.core;
 
-import com.gargoylesoftware.htmlunit.html.HtmlPage;
+import com.grad.htmlunit.html.HtmlPage;
 
 /**
  * Class to display version information about HtmlUnit. This is the class

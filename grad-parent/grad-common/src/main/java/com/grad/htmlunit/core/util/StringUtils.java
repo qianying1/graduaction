@@ -21,7 +21,7 @@ import java.util.regex.Pattern;
 
 import org.apache.http.client.utils.DateUtils;
 
-import com.gargoylesoftware.htmlunit.WebAssert;
+import com.grad.htmlunit.WebAssert;
 
 /**
  * String utilities class for utility functions not covered by third party libraries.

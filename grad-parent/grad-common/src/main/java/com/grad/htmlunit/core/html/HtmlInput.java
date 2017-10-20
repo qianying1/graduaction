@@ -14,9 +14,9 @@
  */
 package com.grad.htmlunit.core.html;
 
-import static com.gargoylesoftware.htmlunit.BrowserVersionFeatures.CSS_INPUT_DISPLAY_INLINE_BLOCK;
-import static com.gargoylesoftware.htmlunit.BrowserVersionFeatures.HTMLINPUT_DOES_NOT_CLICK_SURROUNDING_ANCHOR;
-import static com.gargoylesoftware.htmlunit.BrowserVersionFeatures.HTMLINPUT_SET_DEFAULT_VALUE_UPDATES_VALUE;
+import static com.grad.htmlunit.BrowserVersionFeatures.CSS_INPUT_DISPLAY_INLINE_BLOCK;
+import static com.grad.htmlunit.BrowserVersionFeatures.HTMLINPUT_DOES_NOT_CLICK_SURROUNDING_ANCHOR;
+import static com.grad.htmlunit.BrowserVersionFeatures.HTMLINPUT_SET_DEFAULT_VALUE_UPDATES_VALUE;
 
 import java.io.IOException;
 import java.util.Collection;
@@ -24,11 +24,11 @@ import java.util.Collections;
 import java.util.HashSet;
 import java.util.Map;
 
-import com.gargoylesoftware.htmlunit.ElementNotFoundException;
-import com.gargoylesoftware.htmlunit.Page;
-import com.gargoylesoftware.htmlunit.ScriptResult;
-import com.gargoylesoftware.htmlunit.SgmlPage;
-import com.gargoylesoftware.htmlunit.WebAssert;
+import com.grad.htmlunit.ElementNotFoundException;
+import com.grad.htmlunit.Page;
+import com.grad.htmlunit.ScriptResult;
+import com.grad.htmlunit.SgmlPage;
+import com.grad.htmlunit.WebAssert;
 import com.grad.htmlunit.core.javascript.JavaScriptEngine;
 import com.grad.htmlunit.core.javascript.configuration.JsxGetter;
 import com.grad.htmlunit.core.javascript.configuration.JsxSetter;

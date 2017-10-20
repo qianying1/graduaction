@@ -19,9 +19,9 @@ import java.util.Locale;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 
-import com.gargoylesoftware.htmlunit.BrowserVersion;
-import com.gargoylesoftware.htmlunit.ScriptException;
-import com.gargoylesoftware.htmlunit.WebWindow;
+import com.grad.htmlunit.BrowserVersion;
+import com.grad.htmlunit.ScriptException;
+import com.grad.htmlunit.WebWindow;
 
 import net.sourceforge.htmlunit.corejs.javascript.Scriptable;
 

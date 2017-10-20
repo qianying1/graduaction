@@ -22,7 +22,7 @@ import java.io.StringReader;
 import java.io.StringWriter;
 import java.util.StringTokenizer;
 
-import com.gargoylesoftware.htmlunit.html.HtmlPage;
+import com.grad.htmlunit.html.HtmlPage;
 
 import net.sourceforge.htmlunit.corejs.javascript.EcmaError;
 import net.sourceforge.htmlunit.corejs.javascript.JavaScriptException;

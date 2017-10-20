@@ -14,11 +14,11 @@
  */
 package com.grad.htmlunit.core;
 
-import static com.gargoylesoftware.htmlunit.BrowserVersionFeatures.DIALOGWINDOW_REFERER;
-import static com.gargoylesoftware.htmlunit.BrowserVersionFeatures.JS_XML_SUPPORT_VIA_ACTIVEXOBJECT;
-import static com.gargoylesoftware.htmlunit.BrowserVersionFeatures.PROTOCOL_DATA;
-import static com.gargoylesoftware.htmlunit.BrowserVersionFeatures.URL_MINIMAL_QUERY_ENCODING;
-import static com.gargoylesoftware.htmlunit.BrowserVersionFeatures.WINDOW_EXECUTE_EVENTS;
+import static com.grad.htmlunit.BrowserVersionFeatures.DIALOGWINDOW_REFERER;
+import static com.grad.htmlunit.BrowserVersionFeatures.JS_XML_SUPPORT_VIA_ACTIVEXOBJECT;
+import static com.grad.htmlunit.BrowserVersionFeatures.PROTOCOL_DATA;
+import static com.grad.htmlunit.BrowserVersionFeatures.URL_MINIMAL_QUERY_ENCODING;
+import static com.grad.htmlunit.BrowserVersionFeatures.WINDOW_EXECUTE_EVENTS;
 
 import java.io.BufferedInputStream;
 import java.io.File;
@@ -60,32 +60,32 @@ import org.apache.http.message.BufferedHeader;
 import org.apache.http.util.CharArrayBuffer;
 import org.w3c.css.sac.ErrorHandler;
 
-import com.gargoylesoftware.htmlunit.activex.javascript.msxml.MSXMLActiveXObjectFactory;
-import com.gargoylesoftware.htmlunit.attachment.Attachment;
-import com.gargoylesoftware.htmlunit.attachment.AttachmentHandler;
-import com.gargoylesoftware.htmlunit.gae.GAEUtils;
-import com.gargoylesoftware.htmlunit.html.BaseFrameElement;
-import com.gargoylesoftware.htmlunit.html.DomElement;
-import com.gargoylesoftware.htmlunit.html.DomNode;
-import com.gargoylesoftware.htmlunit.html.FrameWindow;
-import com.gargoylesoftware.htmlunit.html.HTMLParserListener;
-import com.gargoylesoftware.htmlunit.html.HtmlInlineFrame;
-import com.gargoylesoftware.htmlunit.html.HtmlPage;
-import com.gargoylesoftware.htmlunit.httpclient.HtmlUnitBrowserCompatCookieSpec;
-import com.gargoylesoftware.htmlunit.javascript.JavaScriptEngine;
-import com.gargoylesoftware.htmlunit.javascript.JavaScriptErrorListener;
-import com.gargoylesoftware.htmlunit.javascript.background.JavaScriptJobManager;
-import com.gargoylesoftware.htmlunit.javascript.host.Location;
-import com.gargoylesoftware.htmlunit.javascript.host.Window;
-import com.gargoylesoftware.htmlunit.javascript.host.css.ComputedCSSStyleDeclaration;
-import com.gargoylesoftware.htmlunit.javascript.host.dom.Node;
-import com.gargoylesoftware.htmlunit.javascript.host.event.Event;
-import com.gargoylesoftware.htmlunit.javascript.host.html.HTMLDocument;
-import com.gargoylesoftware.htmlunit.javascript.host.html.HTMLElement;
-import com.gargoylesoftware.htmlunit.protocol.data.DataUrlDecoder;
-import com.gargoylesoftware.htmlunit.util.Cookie;
-import com.gargoylesoftware.htmlunit.util.NameValuePair;
-import com.gargoylesoftware.htmlunit.util.UrlUtils;
+import com.grad.htmlunit.activex.javascript.msxml.MSXMLActiveXObjectFactory;
+import com.grad.htmlunit.attachment.Attachment;
+import com.grad.htmlunit.attachment.AttachmentHandler;
+import com.grad.htmlunit.core.javascript.background.JavaScriptJobManager;
+import com.grad.htmlunit.core.javascript.host.Location;
+import com.grad.htmlunit.core.javascript.host.Window;
+import com.grad.htmlunit.core.javascript1.JavaScriptEngine;
+import com.grad.htmlunit.core.javascript1.JavaScriptErrorListener;
+import com.grad.htmlunit.core.javascript1.host.css.ComputedCSSStyleDeclaration;
+import com.grad.htmlunit.core.javascript1.host.dom.Node;
+import com.grad.htmlunit.core.javascript1.host.event.Event;
+import com.grad.htmlunit.core.javascript1.host.html.HTMLDocument;
+import com.grad.htmlunit.core.javascript1.host.html.HTMLElement;
+import com.grad.htmlunit.gae.GAEUtils;
+import com.grad.htmlunit.html.BaseFrameElement;
+import com.grad.htmlunit.html.DomElement;
+import com.grad.htmlunit.html.DomNode;
+import com.grad.htmlunit.html.FrameWindow;
+import com.grad.htmlunit.html.HTMLParserListener;
+import com.grad.htmlunit.html.HtmlInlineFrame;
+import com.grad.htmlunit.html.HtmlPage;
+import com.grad.htmlunit.httpclient.HtmlUnitBrowserCompatCookieSpec;
+import com.grad.htmlunit.protocol.data.DataUrlDecoder;
+import com.grad.htmlunit.util.Cookie;
+import com.grad.htmlunit.util.NameValuePair;
+import com.grad.htmlunit.util.UrlUtils;
 
 /**
  * The main starting point in HtmlUnit: this class simulates a web browser.

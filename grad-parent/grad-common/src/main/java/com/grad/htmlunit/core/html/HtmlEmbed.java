@@ -22,10 +22,10 @@ import java.util.Map;
 
 import org.apache.commons.io.IOUtils;
 
-import com.gargoylesoftware.htmlunit.SgmlPage;
-import com.gargoylesoftware.htmlunit.WebClient;
-import com.gargoylesoftware.htmlunit.WebRequest;
-import com.gargoylesoftware.htmlunit.WebResponse;
+import com.grad.htmlunit.SgmlPage;
+import com.grad.htmlunit.WebClient;
+import com.grad.htmlunit.WebRequest;
+import com.grad.htmlunit.WebResponse;
 
 /**
  * Wrapper for the HTML element "embed".

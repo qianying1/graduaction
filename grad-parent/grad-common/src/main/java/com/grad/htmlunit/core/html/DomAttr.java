@@ -17,7 +17,7 @@ package com.grad.htmlunit.core.html;
 import org.w3c.dom.Attr;
 import org.w3c.dom.TypeInfo;
 
-import com.gargoylesoftware.htmlunit.SgmlPage;
+import com.grad.htmlunit.SgmlPage;
 
 /**
  * An attribute of an element. Attributes are stored in {@link HtmlElement},

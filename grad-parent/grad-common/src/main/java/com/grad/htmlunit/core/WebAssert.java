@@ -18,10 +18,10 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-import com.gargoylesoftware.htmlunit.html.HtmlAnchor;
-import com.gargoylesoftware.htmlunit.html.HtmlElement;
-import com.gargoylesoftware.htmlunit.html.HtmlInput;
-import com.gargoylesoftware.htmlunit.html.HtmlPage;
+import com.grad.htmlunit.html.HtmlAnchor;
+import com.grad.htmlunit.html.HtmlElement;
+import com.grad.htmlunit.html.HtmlInput;
+import com.grad.htmlunit.html.HtmlPage;
 
 /**
  * Utility class which contains standard assertions for HTML pages.

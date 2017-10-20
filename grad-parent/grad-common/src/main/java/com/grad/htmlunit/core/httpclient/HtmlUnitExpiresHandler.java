@@ -14,8 +14,8 @@
  */
 package com.grad.htmlunit.core.httpclient;
 
-import static com.gargoylesoftware.htmlunit.BrowserVersionFeatures.HTTP_COOKIE_EXTENDED_DATE_PATTERNS;
-import static com.gargoylesoftware.htmlunit.BrowserVersionFeatures.HTTP_COOKIE_START_DATE_1970;
+import static com.grad.htmlunit.BrowserVersionFeatures.HTTP_COOKIE_EXTENDED_DATE_PATTERNS;
+import static com.grad.htmlunit.BrowserVersionFeatures.HTTP_COOKIE_START_DATE_1970;
 
 import java.util.Date;
 
@@ -24,7 +24,7 @@ import org.apache.http.cookie.MalformedCookieException;
 import org.apache.http.cookie.SetCookie;
 import org.apache.http.impl.cookie.BasicExpiresHandler;
 
-import com.gargoylesoftware.htmlunit.BrowserVersion;
+import com.grad.htmlunit.BrowserVersion;
 
 /**
  * Customized BasicExpiresHandler for HtmlUnit.

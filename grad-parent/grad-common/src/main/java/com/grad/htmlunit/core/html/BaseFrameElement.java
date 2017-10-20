@@ -23,12 +23,12 @@ import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.w3c.dom.Attr;
 
-import com.gargoylesoftware.htmlunit.FailingHttpStatusCodeException;
-import com.gargoylesoftware.htmlunit.Page;
-import com.gargoylesoftware.htmlunit.SgmlPage;
-import com.gargoylesoftware.htmlunit.WebClient;
-import com.gargoylesoftware.htmlunit.WebRequest;
-import com.gargoylesoftware.htmlunit.WebWindow;
+import com.grad.htmlunit.FailingHttpStatusCodeException;
+import com.grad.htmlunit.Page;
+import com.grad.htmlunit.SgmlPage;
+import com.grad.htmlunit.WebClient;
+import com.grad.htmlunit.WebRequest;
+import com.grad.htmlunit.WebWindow;
 import com.grad.htmlunit.core.javascript.JavaScriptEngine;
 import com.grad.htmlunit.core.javascript.PostponedAction;
 import com.grad.htmlunit.core.protocol.javascript.JavaScriptURLConnection;

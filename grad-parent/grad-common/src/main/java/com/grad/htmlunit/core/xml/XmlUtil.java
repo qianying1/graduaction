@@ -42,8 +42,8 @@ import org.xml.sax.SAXException;
 import org.xml.sax.SAXParseException;
 import org.xml.sax.helpers.AttributesImpl;
 
-import com.gargoylesoftware.htmlunit.SgmlPage;
-import com.gargoylesoftware.htmlunit.WebResponse;
+import com.grad.htmlunit.SgmlPage;
+import com.grad.htmlunit.WebResponse;
 import com.grad.htmlunit.core.html.DomAttr;
 import com.grad.htmlunit.core.html.DomCDataSection;
 import com.grad.htmlunit.core.html.DomComment;

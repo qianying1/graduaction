@@ -14,17 +14,17 @@
  */
 package com.grad.htmlunit.core.html;
 
-import static com.gargoylesoftware.htmlunit.BrowserVersionFeatures.CSS_SCRIPT_DISPLAY_INLINE;
-import static com.gargoylesoftware.htmlunit.BrowserVersionFeatures.EVENT_ONERROR_EXTERNAL_JAVASCRIPT;
-import static com.gargoylesoftware.htmlunit.BrowserVersionFeatures.EVENT_ONLOAD_EXTERNAL_JAVASCRIPT;
-import static com.gargoylesoftware.htmlunit.BrowserVersionFeatures.EVENT_ONLOAD_INTERNAL_JAVASCRIPT;
-import static com.gargoylesoftware.htmlunit.BrowserVersionFeatures.EVENT_ONREADY_STATE_CHANGE;
-import static com.gargoylesoftware.htmlunit.BrowserVersionFeatures.HTMLSCRIPT_APPLICATION_JAVASCRIPT;
-import static com.gargoylesoftware.htmlunit.BrowserVersionFeatures.HTMLSCRIPT_TRIM_TYPE;
-import static com.gargoylesoftware.htmlunit.BrowserVersionFeatures.JS_SCRIPT_ALWAYS_REEXECUTE_ON_SRC_CHANGE;
-import static com.gargoylesoftware.htmlunit.BrowserVersionFeatures.JS_SCRIPT_SUPPORTS_FOR_AND_EVENT_ELEMENT_BY_ID;
-import static com.gargoylesoftware.htmlunit.BrowserVersionFeatures.JS_SCRIPT_SUPPORTS_FOR_AND_EVENT_WINDOW;
-import static com.gargoylesoftware.htmlunit.BrowserVersionFeatures.JS_SCRIPT_SUPPORTS_ONREADYSTATECHANGE;
+import static com.grad.htmlunit.BrowserVersionFeatures.CSS_SCRIPT_DISPLAY_INLINE;
+import static com.grad.htmlunit.BrowserVersionFeatures.EVENT_ONERROR_EXTERNAL_JAVASCRIPT;
+import static com.grad.htmlunit.BrowserVersionFeatures.EVENT_ONLOAD_EXTERNAL_JAVASCRIPT;
+import static com.grad.htmlunit.BrowserVersionFeatures.EVENT_ONLOAD_INTERNAL_JAVASCRIPT;
+import static com.grad.htmlunit.BrowserVersionFeatures.EVENT_ONREADY_STATE_CHANGE;
+import static com.grad.htmlunit.BrowserVersionFeatures.HTMLSCRIPT_APPLICATION_JAVASCRIPT;
+import static com.grad.htmlunit.BrowserVersionFeatures.HTMLSCRIPT_TRIM_TYPE;
+import static com.grad.htmlunit.BrowserVersionFeatures.JS_SCRIPT_ALWAYS_REEXECUTE_ON_SRC_CHANGE;
+import static com.grad.htmlunit.BrowserVersionFeatures.JS_SCRIPT_SUPPORTS_FOR_AND_EVENT_ELEMENT_BY_ID;
+import static com.grad.htmlunit.BrowserVersionFeatures.JS_SCRIPT_SUPPORTS_FOR_AND_EVENT_WINDOW;
+import static com.grad.htmlunit.BrowserVersionFeatures.JS_SCRIPT_SUPPORTS_ONREADYSTATECHANGE;
 
 import java.io.PrintWriter;
 import java.io.StringWriter;
@@ -34,11 +34,11 @@ import org.apache.commons.lang3.StringUtils;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 
-import com.gargoylesoftware.htmlunit.BrowserVersion;
-import com.gargoylesoftware.htmlunit.BrowserVersionFeatures;
-import com.gargoylesoftware.htmlunit.ElementNotFoundException;
-import com.gargoylesoftware.htmlunit.FailingHttpStatusCodeException;
-import com.gargoylesoftware.htmlunit.SgmlPage;
+import com.grad.htmlunit.BrowserVersion;
+import com.grad.htmlunit.BrowserVersionFeatures;
+import com.grad.htmlunit.ElementNotFoundException;
+import com.grad.htmlunit.FailingHttpStatusCodeException;
+import com.grad.htmlunit.SgmlPage;
 import com.grad.htmlunit.core.html.HtmlPage.JavaScriptLoadResult;
 import com.grad.htmlunit.core.javascript.JavaScriptEngine;
 import com.grad.htmlunit.core.javascript.PostponedAction;

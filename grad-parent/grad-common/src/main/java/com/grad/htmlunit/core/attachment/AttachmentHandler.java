@@ -14,7 +14,7 @@
  */
 package com.grad.htmlunit.core.attachment;
 
-import com.gargoylesoftware.htmlunit.Page;
+import com.grad.htmlunit.Page;
 
 /**
  * <p>A handler for attachments, which represent pages received from the server which contain

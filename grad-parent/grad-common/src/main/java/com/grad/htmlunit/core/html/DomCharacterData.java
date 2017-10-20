@@ -16,7 +16,7 @@ package com.grad.htmlunit.core.html;
 
 import org.w3c.dom.CharacterData;
 
-import com.gargoylesoftware.htmlunit.SgmlPage;
+import com.grad.htmlunit.SgmlPage;
 
 /**
  * Wrapper for the DOM node CharacterData.

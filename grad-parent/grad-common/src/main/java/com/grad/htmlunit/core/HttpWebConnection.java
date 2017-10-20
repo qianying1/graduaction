@@ -14,8 +14,8 @@
  */
 package com.grad.htmlunit.core;
 
-import static com.gargoylesoftware.htmlunit.BrowserVersionFeatures.HEADER_CONTENT_DISPOSITION_ABSOLUTE_PATH;
-import static com.gargoylesoftware.htmlunit.BrowserVersionFeatures.URL_AUTH_CREDENTIALS;
+import static com.grad.htmlunit.BrowserVersionFeatures.HEADER_CONTENT_DISPOSITION_ABSOLUTE_PATH;
+import static com.grad.htmlunit.BrowserVersionFeatures.URL_AUTH_CREDENTIALS;
 
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
@@ -97,14 +97,14 @@ import org.apache.http.protocol.RequestContent;
 import org.apache.http.protocol.RequestTargetHost;
 import org.apache.http.ssl.SSLContexts;
 
-import com.gargoylesoftware.htmlunit.httpclient.HtmlUnitCookieSpecProvider;
-import com.gargoylesoftware.htmlunit.httpclient.HtmlUnitCookieStore;
-import com.gargoylesoftware.htmlunit.httpclient.HtmlUnitRedirectStrategie;
-import com.gargoylesoftware.htmlunit.httpclient.HtmlUnitSSLConnectionSocketFactory;
-import com.gargoylesoftware.htmlunit.httpclient.SocksConnectionSocketFactory;
-import com.gargoylesoftware.htmlunit.util.KeyDataPair;
-import com.gargoylesoftware.htmlunit.util.NameValuePair;
-import com.gargoylesoftware.htmlunit.util.UrlUtils;
+import com.grad.htmlunit.httpclient.HtmlUnitCookieSpecProvider;
+import com.grad.htmlunit.httpclient.HtmlUnitCookieStore;
+import com.grad.htmlunit.httpclient.HtmlUnitRedirectStrategie;
+import com.grad.htmlunit.httpclient.HtmlUnitSSLConnectionSocketFactory;
+import com.grad.htmlunit.httpclient.SocksConnectionSocketFactory;
+import com.grad.htmlunit.util.KeyDataPair;
+import com.grad.htmlunit.util.NameValuePair;
+import com.grad.htmlunit.util.UrlUtils;
 
 /**
  * Default implementation of {@link WebConnection}, using the HttpClient library to perform HTTP requests.

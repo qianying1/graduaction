@@ -27,12 +27,12 @@ import org.apache.commons.logging.LogFactory;
 import org.w3c.dom.CDATASection;
 import org.w3c.dom.Node;
 
-import com.gargoylesoftware.htmlunit.ElementNotFoundException;
-import com.gargoylesoftware.htmlunit.SgmlPage;
-import com.gargoylesoftware.htmlunit.StringWebResponse;
-import com.gargoylesoftware.htmlunit.WebRequest;
-import com.gargoylesoftware.htmlunit.WebResponse;
-import com.gargoylesoftware.htmlunit.WebWindow;
+import com.grad.htmlunit.ElementNotFoundException;
+import com.grad.htmlunit.SgmlPage;
+import com.grad.htmlunit.StringWebResponse;
+import com.grad.htmlunit.WebRequest;
+import com.grad.htmlunit.WebResponse;
+import com.grad.htmlunit.WebWindow;
 import com.grad.htmlunit.core.html.DomAttr;
 import com.grad.htmlunit.core.html.DomComment;
 import com.grad.htmlunit.core.html.DomDocumentFragment;

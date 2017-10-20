@@ -16,7 +16,7 @@ package com.grad.htmlunit.core.javascript;
 
 import java.util.regex.Pattern;
 
-import com.gargoylesoftware.htmlunit.ScriptPreProcessor;
+import com.grad.htmlunit.ScriptPreProcessor;
 import com.grad.htmlunit.core.html.HtmlElement;
 import com.grad.htmlunit.core.html.HtmlPage;
 

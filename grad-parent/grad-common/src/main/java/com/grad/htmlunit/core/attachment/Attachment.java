@@ -14,8 +14,8 @@
  */
 package com.grad.htmlunit.core.attachment;
 
-import com.gargoylesoftware.htmlunit.Page;
-import com.gargoylesoftware.htmlunit.WebResponse;
+import com.grad.htmlunit.Page;
+import com.grad.htmlunit.WebResponse;
 
 /**
  * An attachment represents a page received from the server which contains a

@@ -16,7 +16,7 @@ package com.grad.htmlunit.core.html;
 
 import org.xml.sax.Attributes;
 
-import com.gargoylesoftware.htmlunit.SgmlPage;
+import com.grad.htmlunit.SgmlPage;
 
 /**
  * Specification of a factory capable of creating {@link DomElement} objects.

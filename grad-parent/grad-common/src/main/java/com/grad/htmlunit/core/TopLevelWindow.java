@@ -17,7 +17,7 @@ package com.grad.htmlunit.core;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 
-import com.gargoylesoftware.htmlunit.html.HtmlPage;
+import com.grad.htmlunit.html.HtmlPage;
 
 /**
  * A window representing a top level browser window.

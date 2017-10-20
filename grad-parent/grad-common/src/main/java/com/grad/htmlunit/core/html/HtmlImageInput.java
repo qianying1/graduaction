@@ -14,16 +14,16 @@
  */
 package com.grad.htmlunit.core.html;
 
-import static com.gargoylesoftware.htmlunit.BrowserVersionFeatures.HTMLIMAGE_NAME_VALUE_PARAMS;
+import static com.grad.htmlunit.BrowserVersionFeatures.HTMLIMAGE_NAME_VALUE_PARAMS;
 
 import java.io.IOException;
 import java.util.Map;
 
 import org.apache.commons.lang3.StringUtils;
 
-import com.gargoylesoftware.htmlunit.ElementNotFoundException;
-import com.gargoylesoftware.htmlunit.Page;
-import com.gargoylesoftware.htmlunit.SgmlPage;
+import com.grad.htmlunit.ElementNotFoundException;
+import com.grad.htmlunit.Page;
+import com.grad.htmlunit.SgmlPage;
 import com.grad.htmlunit.core.javascript.host.event.Event;
 import com.grad.htmlunit.core.util.NameValuePair;
 

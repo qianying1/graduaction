@@ -17,8 +17,8 @@ package com.grad.htmlunit.core.javascript;
 import java.net.MalformedURLException;
 import java.net.URL;
 
-import com.gargoylesoftware.htmlunit.InteractivePage;
-import com.gargoylesoftware.htmlunit.ScriptException;
+import com.grad.htmlunit.InteractivePage;
+import com.grad.htmlunit.ScriptException;
 
 /**
  * A listener for JavaScript exceptions.

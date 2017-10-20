@@ -21,7 +21,7 @@ import java.lang.ref.WeakReference;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 
-import com.gargoylesoftware.htmlunit.html.HtmlPage;
+import com.grad.htmlunit.html.HtmlPage;
 
 /**
  * This {@link AjaxController} resynchronizes calls calling from the main thread.

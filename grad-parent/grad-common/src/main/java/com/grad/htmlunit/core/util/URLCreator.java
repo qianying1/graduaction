@@ -20,7 +20,7 @@ import java.net.URLStreamHandler;
 
 import org.apache.commons.lang3.StringUtils;
 
-import com.gargoylesoftware.htmlunit.WebClient;
+import com.grad.htmlunit.WebClient;
 import com.grad.htmlunit.core.gae.GAEUtils;
 import com.grad.htmlunit.core.protocol.AnyHandler;
 import com.grad.htmlunit.core.protocol.javascript.JavaScriptURLConnection;

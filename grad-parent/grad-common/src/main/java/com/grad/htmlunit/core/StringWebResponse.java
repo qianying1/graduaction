@@ -20,7 +20,7 @@ import java.util.List;
 
 import org.apache.http.HttpStatus;
 
-import com.gargoylesoftware.htmlunit.util.NameValuePair;
+import com.grad.htmlunit.util.NameValuePair;
 
 /**
  * A simple WebResponse created from a string. Content is assumed to be of type <tt>text/html</tt>.

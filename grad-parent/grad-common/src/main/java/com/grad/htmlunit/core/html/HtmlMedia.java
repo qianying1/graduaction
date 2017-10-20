@@ -16,7 +16,7 @@ package com.grad.htmlunit.core.html;
 
 import java.util.Map;
 
-import com.gargoylesoftware.htmlunit.SgmlPage;
+import com.grad.htmlunit.SgmlPage;
 
 /**
  * HTML Media element, e.g. {@link HtmlAudio} or {@link HtmlVideo}.

@@ -19,11 +19,11 @@ import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.gargoylesoftware.htmlunit.WebClient;
-import com.gargoylesoftware.htmlunit.WebConnection;
-import com.gargoylesoftware.htmlunit.WebRequest;
-import com.gargoylesoftware.htmlunit.WebResponse;
-import com.gargoylesoftware.htmlunit.WebResponseData;
+import com.grad.htmlunit.WebClient;
+import com.grad.htmlunit.WebConnection;
+import com.grad.htmlunit.WebRequest;
+import com.grad.htmlunit.WebResponse;
+import com.grad.htmlunit.WebResponseData;
 
 /**
  * Extension of {@link WebConnectionWrapper} providing facility methods to deliver something other than

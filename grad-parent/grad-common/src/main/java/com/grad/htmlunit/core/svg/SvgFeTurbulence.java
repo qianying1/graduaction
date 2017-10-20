@@ -16,7 +16,7 @@ package com.grad.htmlunit.core.svg;
 
 import java.util.Map;
 
-import com.gargoylesoftware.htmlunit.SgmlPage;
+import com.grad.htmlunit.SgmlPage;
 import com.grad.htmlunit.core.html.DomAttr;
 
 /**

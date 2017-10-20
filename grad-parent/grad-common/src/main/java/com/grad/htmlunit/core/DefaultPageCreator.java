@@ -14,7 +14,7 @@
  */
 package com.grad.htmlunit.core;
 
-import static com.gargoylesoftware.htmlunit.BrowserVersionFeatures.SVG;
+import static com.grad.htmlunit.BrowserVersionFeatures.SVG;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -25,12 +25,12 @@ import org.apache.commons.io.IOUtils;
 import org.apache.commons.lang3.ArrayUtils;
 import org.apache.commons.lang3.StringUtils;
 
-import com.gargoylesoftware.htmlunit.html.DomElement;
-import com.gargoylesoftware.htmlunit.html.HTMLParser;
-import com.gargoylesoftware.htmlunit.html.HtmlPage;
-import com.gargoylesoftware.htmlunit.html.XHtmlPage;
-import com.gargoylesoftware.htmlunit.svg.SvgPage;
-import com.gargoylesoftware.htmlunit.xml.XmlPage;
+import com.grad.htmlunit.html.DomElement;
+import com.grad.htmlunit.html.HTMLParser;
+import com.grad.htmlunit.html.HtmlPage;
+import com.grad.htmlunit.html.XHtmlPage;
+import com.grad.htmlunit.svg.SvgPage;
+import com.grad.htmlunit.xml.XmlPage;
 
 /**
  * The default implementation of {@link PageCreator}. Designed to be extended for easier handling of new content

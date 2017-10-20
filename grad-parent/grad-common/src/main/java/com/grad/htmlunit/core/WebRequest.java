@@ -26,8 +26,8 @@ import java.util.regex.Pattern;
 import org.apache.http.auth.Credentials;
 import org.apache.http.auth.UsernamePasswordCredentials;
 
-import com.gargoylesoftware.htmlunit.util.NameValuePair;
-import com.gargoylesoftware.htmlunit.util.UrlUtils;
+import com.grad.htmlunit.core.util.NameValuePair;
+import com.grad.htmlunit.core.util.UrlUtils;
 
 /**
  * Parameter object for making web requests.

@@ -18,7 +18,7 @@ import java.util.Map;
 
 import org.xml.sax.Attributes;
 
-import com.gargoylesoftware.htmlunit.SgmlPage;
+import com.grad.htmlunit.SgmlPage;
 
 /**
  * A factory for elements encountered in parsing the input which are not represented

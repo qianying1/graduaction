@@ -18,8 +18,8 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.util.List;
 
-import com.gargoylesoftware.htmlunit.WebRequest;
-import com.gargoylesoftware.htmlunit.WebResponse;
+import com.grad.htmlunit.WebRequest;
+import com.grad.htmlunit.WebResponse;
 
 /**
  * Provides a convenient implementation of the {@link WebResponse} interface that can be subclassed

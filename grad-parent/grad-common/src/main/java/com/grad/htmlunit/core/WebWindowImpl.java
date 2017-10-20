@@ -14,9 +14,9 @@
  */
 package com.grad.htmlunit.core;
 
-import static com.gargoylesoftware.htmlunit.BrowserVersionFeatures.JS_WINDOW_OUTER_INNER_HEIGHT_DIFF_63;
-import static com.gargoylesoftware.htmlunit.BrowserVersionFeatures.JS_WINDOW_OUTER_INNER_HEIGHT_DIFF_89;
-import static com.gargoylesoftware.htmlunit.BrowserVersionFeatures.JS_WINDOW_OUTER_INNER_HEIGHT_DIFF_94;
+import static com.grad.htmlunit.core.BrowserVersionFeatures.JS_WINDOW_OUTER_INNER_HEIGHT_DIFF_63;
+import static com.grad.htmlunit.core.BrowserVersionFeatures.JS_WINDOW_OUTER_INNER_HEIGHT_DIFF_89;
+import static com.grad.htmlunit.core.BrowserVersionFeatures.JS_WINDOW_OUTER_INNER_HEIGHT_DIFF_94;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -24,9 +24,9 @@ import java.util.List;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 
-import com.gargoylesoftware.htmlunit.html.FrameWindow;
-import com.gargoylesoftware.htmlunit.javascript.background.BackgroundJavaScriptFactory;
-import com.gargoylesoftware.htmlunit.javascript.background.JavaScriptJobManager;
+import com.grad.htmlunit.core.html.FrameWindow;
+import com.grad.htmlunit.core.javascript.background.BackgroundJavaScriptFactory;
+import com.grad.htmlunit.core.javascript.background.JavaScriptJobManager;
 
 /**
  * <span style="color:red">INTERNAL API - SUBJECT TO CHANGE AT ANY TIME - USE AT YOUR OWN RISK.</span><br>

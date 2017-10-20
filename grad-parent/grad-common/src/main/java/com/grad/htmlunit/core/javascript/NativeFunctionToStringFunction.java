@@ -14,11 +14,11 @@
  */
 package com.grad.htmlunit.core.javascript;
 
-import static com.gargoylesoftware.htmlunit.BrowserVersionFeatures.JS_ERROR;
-import static com.gargoylesoftware.htmlunit.BrowserVersionFeatures.JS_NATIVE_FUNCTION_TOSTRING_COMPACT;
-import static com.gargoylesoftware.htmlunit.BrowserVersionFeatures.JS_NATIVE_FUNCTION_TOSTRING_NEW_LINE;
+import static com.grad.htmlunit.BrowserVersionFeatures.JS_ERROR;
+import static com.grad.htmlunit.BrowserVersionFeatures.JS_NATIVE_FUNCTION_TOSTRING_COMPACT;
+import static com.grad.htmlunit.BrowserVersionFeatures.JS_NATIVE_FUNCTION_TOSTRING_NEW_LINE;
 
-import com.gargoylesoftware.htmlunit.BrowserVersion;
+import com.grad.htmlunit.BrowserVersion;
 import com.grad.htmlunit.core.javascript.host.Window;
 
 import net.sourceforge.htmlunit.corejs.javascript.BaseFunction;

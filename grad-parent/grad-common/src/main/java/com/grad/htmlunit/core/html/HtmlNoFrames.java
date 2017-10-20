@@ -14,11 +14,11 @@
  */
 package com.grad.htmlunit.core.html;
 
-import static com.gargoylesoftware.htmlunit.BrowserVersionFeatures.CSS_FRAMESET_INLINE;
+import static com.grad.htmlunit.BrowserVersionFeatures.CSS_FRAMESET_INLINE;
 
 import java.util.Map;
 
-import com.gargoylesoftware.htmlunit.SgmlPage;
+import com.grad.htmlunit.SgmlPage;
 
 /**
  * Wrapper for the HTML element "noframes".

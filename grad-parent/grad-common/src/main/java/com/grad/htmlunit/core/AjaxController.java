@@ -16,7 +16,7 @@ package com.grad.htmlunit.core;
 
 import java.io.Serializable;
 
-import com.gargoylesoftware.htmlunit.html.HtmlPage;
+import com.grad.htmlunit.html.HtmlPage;
 
 /**
  * This class is notified when AJAX calls are made, and has the ability to influence these calls.

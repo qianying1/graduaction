@@ -16,7 +16,7 @@ package com.grad.htmlunit.core;
 
 import java.io.Serializable;
 
-import com.gargoylesoftware.htmlunit.javascript.background.JavaScriptJobManager;
+import com.grad.htmlunit.core.javascript.background.JavaScriptJobManager;
 
 /**
  * An interface that represents one window in a browser. It could be a top level window or a frame.

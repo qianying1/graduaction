@@ -27,7 +27,7 @@ import org.apache.commons.io.IOUtils;
 import org.apache.commons.lang3.ArrayUtils;
 import org.apache.commons.lang3.StringUtils;
 
-import com.gargoylesoftware.htmlunit.util.NameValuePair;
+import com.grad.htmlunit.util.NameValuePair;
 
 /**
  * Simple data object to simplify WebResponse creation.
