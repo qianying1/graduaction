@@ -219,11 +219,11 @@
 				<version>${druid.version}</version>
 			</dependency>
 			<!-- 依赖的WEB类库 -->
-			<!-- <dependency> -->
-			<!-- <groupId>javax.servlet.jsp</groupId> -->
-			<!-- <artifactId>jsp-api</artifactId> -->
-			<!-- <version>${jsp-api.version}</version> -->
-			<!-- </dependency> -->
+			<dependency>
+				<groupId>javax.servlet.jsp</groupId>
+				<artifactId>jsp-api</artifactId>
+				<version>${jsp-api.version}</version>
+			</dependency>
 			<dependency>
 				<groupId>javax.servlet</groupId>
 				<artifactId>servlet-api</artifactId>
