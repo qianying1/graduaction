@@ -40,6 +40,17 @@
 			<artifactId>dom4j</artifactId>
 			<version>${dom4j.version}</version>
 		</dependency>
+		<!-- htmlunit以来库 -->
+		<dependency>
+			<groupId>net.sourceforge.htmlunit</groupId>
+			<artifactId>htmlunit</artifactId>
+			<version>2.21</version>
+		</dependency>
+		<!-- jsoup依赖库 -->
+		<dependency>
+			<groupId>org.jsoup</groupId>
+			<artifactId>jsoup</artifactId>
+		</dependency>
 	</dependencies>
 
 	<build>
@@ -47,7 +58,6 @@
 			<plugin>
 				<groupId>org.apache.tomcat.maven</groupId>
 				<artifactId>tomcat7-maven-plugin</artifactId>
-				<version>2.1</version>
 				<configuration>
 					<url>http://localhost:8080/manager/html</url>
 					<server>deploymentRepo</server>

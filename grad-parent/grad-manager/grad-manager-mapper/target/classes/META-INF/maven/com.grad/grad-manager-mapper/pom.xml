@@ -31,9 +31,9 @@
 			<artifactId>mysql-connector-java</artifactId>
 		</dependency>
 		<!-- 连接池 -->
-		<dependency>
+		<!-- <dependency>
 			<groupId>com.alibaba</groupId>
 			<artifactId>druid</artifactId>
-		</dependency>
+		</dependency> -->
 	</dependencies>
 </project>  

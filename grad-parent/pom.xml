@@ -60,7 +60,7 @@
 		<jedis.version>2.7.2</jedis.version>
 		<solrj.version>4.10.3</solrj.version>
 		<jsoup.version>1.7.2</jsoup.version>
-		<htmlunit.version>2.27</htmlunit.version>
+		<htmlunit.version>2.21</htmlunit.version>
 	</properties>
 	<dependencyManagement>
 		<dependencies>
@@ -213,11 +213,11 @@
 			</dependency>
 
 			<!-- 连接池 -->
-			<dependency>
+			<!-- <dependency>
 				<groupId>com.alibaba</groupId>
 				<artifactId>druid</artifactId>
 				<version>${druid.version}</version>
-			</dependency>
+			</dependency> -->
 			<!-- 依赖的WEB类库 -->
 			<dependency>
 				<groupId>javax.servlet.jsp</groupId>
