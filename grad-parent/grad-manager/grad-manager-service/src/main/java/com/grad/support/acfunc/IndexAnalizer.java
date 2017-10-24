@@ -6,14 +6,28 @@ import java.util.Map;
 
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
+import org.springframework.util.AutoPopulatingList.ElementInstantiationException;
 
 import com.grad.BaseUtil;
+import com.grad.entityutil.acfunc.BananaCrunchies;
+import com.grad.entityutil.acfunc.Carousel;
+import com.grad.entityutil.acfunc.Dancerkanojo;
+import com.grad.entityutil.acfunc.DramaSeries;
+import com.grad.entityutil.acfunc.Entertainment;
+import com.grad.entityutil.acfunc.FishesPool;
+import com.grad.entityutil.acfunc.Game;
+import com.grad.entityutil.acfunc.MonkeyRecommend;
+import com.grad.entityutil.acfunc.Music;
+import com.grad.entityutil.acfunc.ScienceAndTechno;
+import com.grad.entityutil.acfunc.SecondlyYuan;
+import com.grad.entityutil.acfunc.Sport;
 import com.grad.util.Validation;
 
-public class IndexAnalizer extends BaseUtil{
+public class IndexAnalizer extends BaseUtil {
 
 	/**
 	 * 分析页面头部获取链接列表
+	 * 
 	 * @param header
 	 * @return
 	 */
@@ -24,7 +38,7 @@ public class IndexAnalizer extends BaseUtil{
 		}
 		Element nav = header.getElementById("nav");
 		Elements ahrefs = nav.select("a");
-		if(Validation.isEmpty(ahrefs)){
+		if (Validation.isEmpty(ahrefs)) {
 			log.error("the header don`t have super link");
 			return null;
 		}
@@ -40,21 +54,151 @@ public class IndexAnalizer extends BaseUtil{
 
 	/**
 	 * 分析页面中带有轮播的section节点
+	 * 
 	 * @param section
 	 * @return
 	 */
-	public Map<String, Object> analizeCarouselSection(Element section){
-		
-		return null;
-	}
-	
-	/**
-	 * 分析页面中普通的section节点
-	 * @param section
-	 * @return
-	 */
-	public Map<String, Object> analizeSection(Element section) {
+	public List<Carousel> analizeCarouselSection(Element section) {
 
 		return null;
 	}
+
+	/**
+	 * 分析页面中猴子推荐的section节点
+	 * 
+	 * @param section
+	 * @return
+	 */
+	public List<MonkeyRecommend> analizeMonkeySection(Element section) {
+
+		return null;
+	}
+
+	/**
+	 * 分析页面中香蕉榜中的section节点
+	 * 
+	 * @param section
+	 * @return
+	 */
+	public List<BananaCrunchies> analizeBananaSection(Element section) {
+
+		return null;
+	}
+
+	/**
+	 * 分析页面中娱乐版块中的section节点
+	 * 
+	 * @param section
+	 * @return
+	 */
+	public List<Entertainment> analizeEntertainmentSection(Element section) {
+
+		return null;
+	}
+
+	/**
+	 * 分析页面中番剧版块中的section节点
+	 * 
+	 * @param section
+	 * @return
+	 */
+	public List<DramaSeries> analizeDramaSeriesSection(Element section) {
+
+		return null;
+	}
+
+	/**
+	 * 分析页面中游戏版块中的section节点
+	 * 
+	 * @param section
+	 * @return
+	 */
+	public List<Game> analizeGameSection(Element section) {
+
+		return null;
+	}
+
+	/**
+	 * 分析页面中二次元版块中的section节点
+	 * 
+	 * @param section
+	 * @return
+	 */
+	public List<SecondlyYuan> analizeSecondlyYuanSection(Element section) {
+
+		return null;
+	}
+
+	/**
+	 * 分析页面中音乐版块中的section节点
+	 * 
+	 * @param section
+	 * @return
+	 */
+	public List<Music> analizeMusicSection(Element section) {
+
+		return null;
+	}
+
+	/**
+	 * 分析页面中舞蹈@彼女版块中的section节点
+	 * 
+	 * @param section
+	 * @return
+	 */
+	public List<Dancerkanojo> analizeDancerKanojoSection(Element section) {
+
+		return null;
+	}
+
+	/**
+	 * 分析页面中科技版块中的section节点
+	 * 
+	 * @param section
+	 * @return
+	 */
+	public List<ScienceAndTechno> analizeScienceAndTechnoSection(Element section) {
+		return null;
+	}
+
+	/**
+	 * 分析页面中鱼塘版块中的section节点
+	 * 
+	 * @param section
+	 * @return
+	 */
+	public List<FishesPool> analizeFishesPoolSection(Element section) {
+
+		return null;
+	}
+
+	/**
+	 * 分析页面中体育版块中的section节点
+	 * 
+	 * @param section
+	 * @return
+	 */
+	public List<Sport> analizeSportSection(Element section) {
+
+		return null;
+	}
+
+	/**
+	 * section节点的共同处理器
+	 */
+	private void commondHandler() {
+
+	}
+
+	/**
+	 * 分析导航栏上的节点获取链接地址列表
+	 * 
+	 * @param nav
+	 * @return
+	 */
+	public List<String> analizeNavForUrls(Element nav) {
+
+		return null;
+	}
+
 }
