@@ -26,6 +26,7 @@
 		<fastjson.version>1.1.39</fastjson.version>
 		<httpclient.version>4.3.5</httpclient.version>
 		<joda-time.version>2.5</joda-time.version>
+		<cxf.version>2.4.2</cxf.version>
 		<jsqlparser.version>0.9.1</jsqlparser.version>
 		<commons-dbcp2.version>
 			2.0
@@ -64,6 +65,136 @@
 	</properties>
 	<dependencyManagement>
 		<dependencies>
+			<!-- 用于把xml映射成java类，简化xml的处理 -->
+			<dependency>
+				<groupId>commons-digester</groupId>
+				<artifactId>commons-digester</artifactId>
+				<version>1.8.1</version>
+			</dependency>
+			<!-- 提供了以下相关工具 -->
+			<!-- 1,StringUtils该类主要提供对字符串的操作,对null是安全的,主要提供了字符串查找,替换,分割,去空白,去掉非法字符等等操作 -->
+			<!-- 2,ObjectUtils主要是对null进行安全处理,可以设置为null时的默认返回值,比较相等时是调用对象的equals方法,因此需要对对象进行方法进行覆盖 -->
+			<!-- 3,SystemUtils 主要获取一些系统属性,例如工作目录等等 -->
+			<!-- 4,DateUtils/CalendarUtils 主要提供了对日期的操作,包括日期加减,日期格式化,日期比较,一定时间范围内日期的迭代等等 -->
+			<!-- 5,StopWatch 提供秒表的计时,暂停等功能 -->
+			<!-- 6, EqualsBuilder/HashCodeBuilder提供了方便的方法来覆盖equals() 和hashCode()方法 -->
+			<!-- 7,以Range结尾的类主要提供一些范围的操作,包括判断某些字符,数字等是否在这个范围以内 -->
+			<!-- 8,ArrayUtils 提供了数组的复制,查找,获取子数组,反转等功能 -->
+			<dependency>
+				<groupId>commons-lang</groupId>
+				<artifactId>commons-lang</artifactId>
+				<version>2.6</version>
+			</dependency>
+			<!-- 摘要运算、编码的包。在该包中主要分为四类加密：BinaryEncoders、DigestEncoders、LanguageEncoders、NetworkEncoders -->
+			<!-- 例如使用base64等工具进行encode活decode操作等 -->
+			<dependency>
+				<groupId>commons-codec</groupId>
+				<artifactId>commons-codec</artifactId>
+				<version>1.6</version>
+			</dependency>
+			<!-- 为java标准的Collections API提供了相当好的补充，是一个重量级插件 -->
+			<dependency>
+				<groupId>commons-collections</groupId>
+				<artifactId>commons-collections</artifactId>
+				<version>3.2.1</version>
+			</dependency>
+			<!-- 用于操作JAVA BEAN的工具包，是一套通过反射机制对java bean进行属性以及方法实现操作的工具 -->
+			<dependency>
+				<groupId>commons-beanutils</groupId>
+				<artifactId>commons-beanutils</artifactId>
+				<version>1.8.3</version>
+			</dependency>
+			<!-- 拥有数据库连接池等便捷组件提供开发员对数据库进行操作 -->
+			<dependency>
+				<groupId>commons-dbcp</groupId>
+				<artifactId>commons-dbcp</artifactId>
+				<version>1.4</version>
+			</dependency>
+			<!-- 用于对持久层进行事务管理操作 -->
+			<dependency>
+				<groupId>javax.transaction</groupId>
+				<artifactId>jta</artifactId>
+				<version>1.1</version>
+			</dependency>
+			<!-- 在持久层用于实现持久化数据操作管理，例如使用注释的方式进行数据库表的标记操作等 -->
+			<dependency>
+				<groupId>javax.persistence</groupId>
+				<artifactId>persistence-api</artifactId>
+				<version>1.0</version>
+			</dependency>
+
+			<!-- CXF Dependence -->
+			<!-- 用于对webservice进行声明以及各种操作等 -->
+			<dependency>
+				<groupId>org.apache.cxf</groupId>
+				<artifactId>cxf-rt-core</artifactId>
+				<version>${cxf.version}</version>
+			</dependency>
+			<!-- 用于对配置文件进行管理 -->
+			<dependency>
+				<groupId>org.apache.cxf</groupId>
+				<artifactId>cxf-rt-frontend-jaxws</artifactId>
+				<version>${cxf.version}</version>
+			</dependency>
+			<!-- 对webservice中的http协议通信进行管理等 -->
+			<dependency>
+				<groupId>org.apache.cxf</groupId>
+				<artifactId>cxf-rt-transports-http</artifactId>
+				<version>${cxf.version}</version>
+			</dependency>
+			<!-- 用于对webservice组件进行管理等 -->
+			<dependency>
+				<groupId>org.apache.cxf</groupId>
+				<artifactId>cxf-rt-management</artifactId>
+				<version>${cxf.version}</version>
+			</dependency>
+			<!-- 在实现webservice组件的过程中提供了很多方便的工具 -->
+			<dependency>
+				<groupId>org.apache.cxf</groupId>
+				<artifactId>cxf-common-utilities</artifactId>
+				<version>${cxf.version}</version>
+			</dependency>
+			<!-- 对webservice组件网络化时实现安全性的管理 -->
+			<dependency>
+				<groupId>org.apache.cxf</groupId>
+				<artifactId>cxf-rt-ws-security</artifactId>
+				<version>${cxf.version}</version>
+			</dependency>
+			<!-- CXF Dependence -->
+
+			<!-- cglib字节码解释器 -->
+			<dependency>
+				<groupId>cglib</groupId>
+				<artifactId>cglib-nodep</artifactId>
+				<version>2.2.2</version>
+			</dependency>
+
+			<!-- alibaba温少作品；druid，能快速处理大规模数据，实现快速查询以及分析；用于对数据库连接池进行管理，由数据库连接池，插件框架以及sql解释器组成 -->
+			<dependency>
+				<groupId>com.alibaba</groupId>
+				<artifactId>druid</artifactId>
+				<version>1.0.10</version>
+			</dependency>
+
+			<!-- json主要控件 -->
+			<dependency>
+				<groupId>org.codehaus.jackson</groupId>
+				<artifactId>jackson-core-asl</artifactId>
+				<version>1.9.13</version>
+			</dependency>
+			<!-- json映射控件 -->
+			<dependency>
+				<groupId>org.codehaus.jackson</groupId>
+				<artifactId>jackson-mapper-asl</artifactId>
+				<version>1.9.13</version>
+			</dependency>
+			<!-- 将对象或数组和JSON串互转 -->
+			<dependency>
+				<groupId>com.alibaba</groupId>
+				<artifactId>fastjson</artifactId>
+				<version>1.2.4</version>
+			</dependency>
+
 			<!-- 时间操作组件 -->
 			<dependency>
 				<groupId>joda-time</groupId>
@@ -77,6 +208,7 @@
 				<version>${junit.version}</version>
 				<scope>test</scope>
 			</dependency>
+			<!-- 用于实现网络传输的各种操作，例如实现ftp文件上传 -->
 			<dependency>
 				<groupId>commons-net</groupId>
 				<artifactId>commons-net</artifactId>
@@ -94,67 +226,81 @@
 				<artifactId>httpclient</artifactId>
 				<version>${httpclient.version}</version>
 			</dependency>
-			<!-- Spring相关包含springmvc -->
+			<!-- 主要用于spring的aop切面编程 -->
 			<dependency>
 				<groupId>aopalliance</groupId>
 				<artifactId>aopalliance</artifactId>
 				<version>${aopalliance.version}</version>
 			</dependency>
+			<!-- 包含Spring 框架基本的核心工具类。Spring 其它组件要都要使用到这个包里的类，是其它组件的基本核心，当然你也可以在自己的应用系统中使用这些工具类。 -->
 			<dependency>
 				<groupId>org.springframework</groupId>
 				<artifactId>spring-core</artifactId>
 				<version>${spring.version}</version>
 			</dependency>
+			<!-- spring bean管理组件 -->
 			<dependency>
 				<groupId>org.springframework</groupId>
 				<artifactId>spring-beans</artifactId>
 				<version>${spring.version}</version>
 			</dependency>
+			<!-- 为Spring 核心提供了大量扩展。可以找到使用Spring ApplicationContext特性时所需的全部类，JDNI 所需的全部类，instrumentation组件以及校验Validation 
+				方面的相关类 -->
 			<dependency>
 				<groupId>org.springframework</groupId>
 				<artifactId>spring-context</artifactId>
 				<version>${spring.version}</version>
 			</dependency>
+			<!-- 文件包含对Spring 对JDBC 数据访问进行封装的所有类 -->
 			<dependency>
 				<groupId>org.springframework</groupId>
 				<artifactId>spring-jdbc</artifactId>
 				<version>${spring.version}</version>
 			</dependency>
+			<!-- spring web网络通讯模块管理组件 -->
 			<dependency>
 				<groupId>org.springframework</groupId>
 				<artifactId>spring-web</artifactId>
 				<version>${spring.version}</version>
 			</dependency>
+			<!-- spring mvc分层模块管理组件 -->
 			<dependency>
 				<groupId>org.springframework</groupId>
 				<artifactId>spring-webmvc</artifactId>
 				<version>${spring.version}</version>
 			</dependency>
+			<!-- spring面向切面编程管理模块组件 -->
 			<dependency>
 				<groupId>org.springframework</groupId>
 				<artifactId>spring-aop</artifactId>
 				<version>${spring.version}</version>
 			</dependency>
+			<!-- spring事务管理模块组件，例如用于声明事务注解 -->
 			<dependency>
 				<groupId>org.springframework</groupId>
 				<artifactId>spring-tx</artifactId>
 				<version>${spring.version}</version>
 			</dependency>
+			<!-- spring 持久层orm模块组件 -->
 			<dependency>
 				<groupId>org.springframework</groupId>
 				<artifactId>spring-orm</artifactId>
 				<version>${spring.version}</version>
 			</dependency>
+			<!-- 支持UI模版（Velocity，FreeMarker，JasperReports），邮件服务，脚本服务(JRuby)，缓存Cache（EHCache），任务计划Scheduling（uartz）方面的类 -->
 			<dependency>
 				<groupId>org.springframework</groupId>
 				<artifactId>spring-context-support</artifactId>
 				<version>${spring.version}</version>
 			</dependency>
+			<!-- 用于进行spring项目测试的组件 -->
 			<dependency>
 				<groupId>org.springframework</groupId>
 				<artifactId>spring-test</artifactId>
 				<version>${spring.version}</version>
 			</dependency>
+			<!-- 这个jar包提供了对JMS 1.0.2/1.1的支持类，jms为java消息服务,是一个Java 平台中关于面向消息中间件（MOM 
+				）的API，用于在两个应用程序之间，或 分布式系统中发送消息， 进行异步通信 -->
 			<dependency>
 				<groupId>org.springframework</groupId>
 				<artifactId>spring-jms</artifactId>
@@ -213,11 +359,8 @@
 			</dependency>
 
 			<!-- 连接池 -->
-			<!-- <dependency>
-				<groupId>com.alibaba</groupId>
-				<artifactId>druid</artifactId>
-				<version>${druid.version}</version>
-			</dependency> -->
+			<!-- <dependency> <groupId>com.alibaba</groupId> <artifactId>druid</artifactId> 
+				<version>${druid.version}</version> </dependency> -->
 			<!-- 依赖的WEB类库 -->
 			<dependency>
 				<groupId>javax.servlet.jsp</groupId>
@@ -235,11 +378,6 @@
 				<version>${jstl.version}</version>
 			</dependency>
 			<!-- 依赖的测试类库 -->
-			<dependency>
-				<groupId>org.springframework</groupId>
-				<artifactId>spring-test</artifactId>
-				<version>${spring.version}</version>
-			</dependency>
 			<dependency>
 				<groupId>junit</groupId>
 				<artifactId>junit</artifactId>

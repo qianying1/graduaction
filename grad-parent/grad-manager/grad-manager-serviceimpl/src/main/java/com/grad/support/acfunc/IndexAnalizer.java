@@ -2,13 +2,10 @@ package com.grad.support.acfunc;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Map;
 
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
-import org.springframework.util.AutoPopulatingList.ElementInstantiationException;
 
-import com.grad.BaseUtil;
 import com.grad.entityutil.acfunc.BananaCrunchies;
 import com.grad.entityutil.acfunc.Carousel;
 import com.grad.entityutil.acfunc.Dancerkanojo;
@@ -21,6 +18,7 @@ import com.grad.entityutil.acfunc.Music;
 import com.grad.entityutil.acfunc.ScienceAndTechno;
 import com.grad.entityutil.acfunc.SecondlyYuan;
 import com.grad.entityutil.acfunc.Sport;
+import com.grad.util.BaseUtil;
 import com.grad.util.Validation;
 
 public class IndexAnalizer extends BaseUtil {
