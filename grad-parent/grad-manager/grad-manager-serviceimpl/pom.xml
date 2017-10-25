@@ -10,7 +10,7 @@
 	</parent>
 	<artifactId>grad-manager-serviceimpl</artifactId>
 	<name>grad-manager-serviceimpl</name>
-	<url>http://maven.apache.org</url>
+	<url>http://grad.com</url>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>

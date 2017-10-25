@@ -7,12 +7,6 @@
         <dependent-module archiveName="grad-manager-service-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/grad-manager-service/grad-manager-service">
             <dependency-type>uses</dependency-type>
         </dependent-module>
-        <dependent-module archiveName="grad-manager-mapper-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/grad-manager-mapper/grad-manager-mapper">
-            <dependency-type>uses</dependency-type>
-        </dependent-module>
-        <dependent-module archiveName="grad-manager-entity-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/grad-manager-entity/grad-manager-entity">
-            <dependency-type>uses</dependency-type>
-        </dependent-module>
         <dependent-module archiveName="grad-common-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/grad-common/grad-common">
             <dependency-type>uses</dependency-type>
         </dependent-module>

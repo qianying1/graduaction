@@ -10,6 +10,6 @@ import com.grad.util.BaseUtil;
 @Service
 @Transactional
 @WebService(endpointInterface = "com.grad.service.acfunc.IndexService")
-public class IndexServiceImpl extends BaseUtil implements IndexService{
+public class IndexServiceImpl extends BaseUtil{
 	
 }
