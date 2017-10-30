@@ -24,6 +24,7 @@
 		<module>grad-manager-service</module>
 		<module>grad-manager-serviceimpl</module>
 		<module>grad-manager-web</module>
+		<module>grad-manager-entity2</module>
 	</modules>
 	<build>
 		<plugins>

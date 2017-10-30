@@ -1,5 +1,5 @@
 package com.grad.entityutil.acfunc;
 
-public class SecondlyYuan extends BaseEntity{
+public class SecondlyYuan {
 
 }

@@ -488,5 +488,6 @@
 	<modules>
 		<module>grad-common</module>
 		<module>grad-manager</module>
+		<module>grad-portal</module>
 	</modules>
 </project>
